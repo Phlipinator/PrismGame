@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - clickablesLayer
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1502080679
+    locked: 1
+  - name: Walls
+    uniqueID: 1978872453
+    locked: 0
+  - name: Prisms
+    uniqueID: 3828408971
     locked: 0
