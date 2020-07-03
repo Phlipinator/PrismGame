@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{0D312954-2D99-4C1D-0827-86655757E64F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ClickMe.cs">
     <Files>
       <File FileName="Assets/MainMenu.cs" Line="20" Column="2" />
+      <File FileName="Assets/MouseSelector.cs" Line="19" Column="7" />
+      <File FileName="Assets/ClickMe.cs" Line="31" Column="1" />
+      <File FileName="Assets/ClickMePls.cs" Line="31" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PrismGame" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="MainMenu.cs" selected="True" />
+              <Node name="ClickMe.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -17,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8143cfdf-d7b9-4dc0-ad4b-189e208ab048" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d08ca9ac-024c-410f-9526-71b0e533cb3b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
