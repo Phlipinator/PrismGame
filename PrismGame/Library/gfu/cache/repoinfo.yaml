@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-07-02T14:59:31.430+02:00
-  initializedAtString: 2020-07-02T14:59:31.430+02:00
+  lastUpdatedAtString: 2020-07-03T15:26:58.981+02:00
+  initializedAtString: 2020-07-02T19:24:12.680+02:00
   currentGitRemote:
     name: origin
     url: git@github.com:Phlipinator/PrismGame.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: PrismInteraction
+    tracking: 
   currentConfigBranch:
-    name: master
+    name: PrismInteraction
     remote:
-      name: origin
-      url: git@github.com:Phlipinator/PrismGame.git
-    trackingBranch: master
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: git@github.com:Phlipinator/PrismGame.git
