@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-07-03T15:26:59.032+02:00
+  lastUpdatedAtString: 2020-07-03T15:31:20.823+02:00
   initializedAtString: 2020-07-02T19:24:19.806+02:00
   localBranches:
   - name: FailBranch
@@ -21,11 +21,13 @@ MonoBehaviour:
   - name: LevelDesign
     tracking: 
   - name: PrismInteraction
-    tracking: 
+    tracking: origin/PrismInteraction
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/FailBranch
+    tracking: '[None]'
+  - name: origin/PrismInteraction
     tracking: '[None]'
   remotes:
   - name: origin
@@ -54,9 +56,9 @@ MonoBehaviour:
       trackingBranch: 
     - name: PrismInteraction
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: git@github.com:Phlipinator/PrismGame.git
+      trackingBranch: PrismInteraction
     - name: master
       remote:
         name: origin
@@ -68,9 +70,15 @@ MonoBehaviour:
     subKeys:
     - Values:
       - FailBranch
+      - PrismInteraction
     subKeyValues:
     - Values:
       - name: FailBranch
+        remote:
+          name: origin
+          url: git@github.com:Phlipinator/PrismGame.git
+        trackingBranch: 
+      - name: PrismInteraction
         remote:
           name: origin
           url: git@github.com:Phlipinator/PrismGame.git

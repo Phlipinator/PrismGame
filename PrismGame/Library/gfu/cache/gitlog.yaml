@@ -13,9 +13,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-07-03T15:27:01.068+02:00
+  lastUpdatedAtString: 2020-07-03T18:49:24.276+02:00
   initializedAtString: 2020-07-03T15:27:00.501+02:00
   log:
+  - commitID: 3137eae0f304e58b1a03e45c75798892a8a66222
+    mergeA: 
+    mergeB: 
+    authorName: Michi
+    authorEmail: Michi@michis-mbp.local
+    commitEmail: Michi@michis-mbp.local
+    commitName: Michi
+    summary: Adds rotation to prisms
+    description: Prisms now can be rotated with the arrow-keys l/r, if they were
+      clicked before.
+    timeString: 2020-07-03T17:31:20.000+02:00
+    commitTimeString: 2020-07-03T17:31:20.000+02:00
+    changes:
+    - path: PrismGame/Assets/HitDetectionScropts/ClickMePls.cs
+      fullPath: /Users/phips/Documents/PrismGame/PrismGame/Assets/HitDetectionScropts/ClickMePls.cs
+      projectPath: Assets/HitDetectionScropts/ClickMePls.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 5751def0e2119ebb1503ceba2aaf737c6c1d23df
+    mergeA: 
+    mergeB: 
+    authorName: Philipp Thalhammer
+    authorEmail: phips@Philipps-MBP.fritz.box
+    commitEmail: phips@Philipps-MBP.fritz.box
+    commitName: Philipp Thalhammer
+    summary: 'Basic hit detection added: Prisms now change color on click'
+    description: 
+    timeString: 2020-07-03T15:30:25.000+02:00
+    commitTimeString: 2020-07-03T15:30:25.000+02:00
+    changes:
+    - path: PrismGame/Library/gfu/cache/branches.yaml
+      fullPath: /Users/phips/Documents/PrismGame/PrismGame/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/phips/Documents/PrismGame/PrismGame/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/phips/Documents/PrismGame/PrismGame/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/phips/Documents/PrismGame/PrismGame/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/phips/Documents/PrismGame/PrismGame/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/phips/Documents/PrismGame/PrismGame/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: d59bd03fbd2aac9c1d98a03201025a0fb45753e0
     mergeA: 
     mergeB: 
