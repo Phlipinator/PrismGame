@@ -15,10 +15,10 @@ public class ClickMePls : MonoBehaviour
                 clicked = true;
 
                 //The rotation part does not work jet
-                if (Input.GetKey(KeyCode.A))
+                /*if (Input.GetKey(KeyCode.A))
                 {
-                transform.Rotate(Vector3.right * 30 * Time.deltaTime);
-            }
+                    transform.Rotate(Vector3.right * 30 * Time.deltaTime);
+                }*/
             }
 
             else
@@ -27,6 +27,17 @@ public class ClickMePls : MonoBehaviour
                 clicked = false;
             }
        
+    }
+
+    private void Update()
+    {
+        //this rotates the sprite if it is clicked, according to the arrow keys
+        if (clicked)
+        {
+            float direction = Input.GetAxis("Horizontal");
+            Vector3 rotation = new Vector3(0, 0, -direction);
+            transform.Rotate(rotation);
+        }
     }
 
     /*
