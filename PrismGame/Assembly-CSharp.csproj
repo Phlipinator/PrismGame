@@ -63,11 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DrawLine.cs" />
     <Compile Include="Assets\GamelogicScripts\ClickMe.cs" />
     <Compile Include="Assets\GamelogicScripts\ClickMePls.cs" />
     <Compile Include="Assets\GamelogicScripts\MouseSelector.cs" />
     <Compile Include="Assets\Laser.cs" />
     <Compile Include="Assets\Laser2.cs" />
+    <Compile Include="Assets\Laser3.cs" />
     <Compile Include="Assets\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\MainMenu\PlayMenuScript.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
