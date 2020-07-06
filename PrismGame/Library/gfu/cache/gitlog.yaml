@@ -13,9 +13,945 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-07-06T11:01:36.780+02:00
-  initializedAtString: 2020-07-06T11:01:36.780+02:00
+  lastUpdatedAtString: 2020-07-06T13:42:13.635+02:00
+  initializedAtString: 2020-07-06T13:42:13.509+02:00
   log:
+  - commitID: a4e87c33883b36772a46f5d5674c8506441f74e3
+    mergeA: 
+    mergeB: 
+    authorName: Michi
+    authorEmail: Michi@michis-mbp.local
+    commitEmail: Michi@michis-mbp.local
+    commitName: Michi
+    summary: Adds Collision Detection
+    description: 
+    timeString: 2020-07-06T11:02:23.000+02:00
+    commitTimeString: 2020-07-06T11:02:23.000+02:00
+    changes:
+    - path: PrismGame/.vs/PrismGame/xs/UserPrefs.xml
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/.vs/PrismGame/xs/UserPrefs.xml
+      projectPath: .vs/PrismGame/xs/UserPrefs.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/.vs/PrismGame/xs/project-cache/Assembly-CSharp-Debug.json
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/.vs/PrismGame/xs/project-cache/Assembly-CSharp-Debug.json
+      projectPath: .vs/PrismGame/xs/project-cache/Assembly-CSharp-Debug.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/.vs/PrismGame/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/.vs/PrismGame/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+      projectPath: .vs/PrismGame/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Assembly-CSharp.csproj
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Assets/Laser3.cs
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser3.cs
+      projectPath: Assets/Laser3.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Assets/Scenes/Low.unity
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Scenes/Low.unity
+      projectPath: Assets/Scenes/Low.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Assets/Square.png
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Square.png
+      projectPath: Assets/Square.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Assets/Square.png.meta
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Square.png.meta
+      projectPath: Assets/Square.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Assets/World.meta
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/World.meta
+      projectPath: Assets/World.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/AnnotationManager
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/AnnotationManager
+      projectPath: Library/AnnotationManager
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ArtifactDB
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ArtifactDB
+      projectPath: Library/ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/05/05f1c2ba0cf7338a411c86d188a923ab
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/05/05f1c2ba0cf7338a411c86d188a923ab
+      projectPath: Library/Artifacts/05/05f1c2ba0cf7338a411c86d188a923ab
+      originalPath: PrismGame/Library/Artifacts/1a/1aeca58158710ac152276db2ae9f1479
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/18/1810554163e85f4145f22ce8e00928c3
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/18/1810554163e85f4145f22ce8e00928c3
+      projectPath: Library/Artifacts/18/1810554163e85f4145f22ce8e00928c3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/28/28754cd58185fed6e6cbcbf9b201815e
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/28/28754cd58185fed6e6cbcbf9b201815e
+      projectPath: Library/Artifacts/28/28754cd58185fed6e6cbcbf9b201815e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/35/353b51500d39c2c06115b4b780f0d794
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/35/353b51500d39c2c06115b4b780f0d794
+      projectPath: Library/Artifacts/35/353b51500d39c2c06115b4b780f0d794
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/40/40aa37690db5e6fcf770641814ce8a91
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/40/40aa37690db5e6fcf770641814ce8a91
+      projectPath: Library/Artifacts/40/40aa37690db5e6fcf770641814ce8a91
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/45/4542e8317188c83afeb35040750ea31b
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/45/4542e8317188c83afeb35040750ea31b
+      projectPath: Library/Artifacts/45/4542e8317188c83afeb35040750ea31b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/5a/5ae0a709f4e63030b50a20e569ef0bf6
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/5a/5ae0a709f4e63030b50a20e569ef0bf6
+      projectPath: Library/Artifacts/5a/5ae0a709f4e63030b50a20e569ef0bf6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/7f/7fdb1679534403d77f23f20c4f558e34
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/7f/7fdb1679534403d77f23f20c4f558e34
+      projectPath: Library/Artifacts/7f/7fdb1679534403d77f23f20c4f558e34
+      originalPath: PrismGame/Library/Artifacts/b5/b5bfbb42a157c4fc551c82a88bd83a37
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/83/831b24a7b2de7d7fa48245a0d5c4be0f
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/83/831b24a7b2de7d7fa48245a0d5c4be0f
+      projectPath: Library/Artifacts/83/831b24a7b2de7d7fa48245a0d5c4be0f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/9b/9be6a3fe8a7824c2dd1bc4f99f21d3fe
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/9b/9be6a3fe8a7824c2dd1bc4f99f21d3fe
+      projectPath: Library/Artifacts/9b/9be6a3fe8a7824c2dd1bc4f99f21d3fe
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/9c/9c46e4ebe17b4310d236829edfdbd2a0
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/9c/9c46e4ebe17b4310d236829edfdbd2a0
+      projectPath: Library/Artifacts/9c/9c46e4ebe17b4310d236829edfdbd2a0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/9c/9cf6f42ffdce1448a302c911e49b90fe
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/9c/9cf6f42ffdce1448a302c911e49b90fe
+      projectPath: Library/Artifacts/9c/9cf6f42ffdce1448a302c911e49b90fe
+      originalPath: PrismGame/Library/Artifacts/c8/c896079a5de7b40ffcc0712ab1e11031
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/af/af7eab3a11a26671cb8413ac35bfffb8
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/af/af7eab3a11a26671cb8413ac35bfffb8
+      projectPath: Library/Artifacts/af/af7eab3a11a26671cb8413ac35bfffb8
+      originalPath: PrismGame/Library/Artifacts/5c/5c2b37ce801b5e93c0a8c86688a1cbdb
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/b9/b93ae3a88c3a297ea83b2c1212c0bb45
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/b9/b93ae3a88c3a297ea83b2c1212c0bb45
+      projectPath: Library/Artifacts/b9/b93ae3a88c3a297ea83b2c1212c0bb45
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/c7/c7054a70eb1ce8e1baa2268b3e77d201
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/c7/c7054a70eb1ce8e1baa2268b3e77d201
+      projectPath: Library/Artifacts/c7/c7054a70eb1ce8e1baa2268b3e77d201
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/d8/d8af343245ac8a9685671438c55e15b9
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/d8/d8af343245ac8a9685671438c55e15b9
+      projectPath: Library/Artifacts/d8/d8af343245ac8a9685671438c55e15b9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/dd/dd9b648b10ab60c5444906088044cfc1
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/dd/dd9b648b10ab60c5444906088044cfc1
+      projectPath: Library/Artifacts/dd/dd9b648b10ab60c5444906088044cfc1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/e9/e9cd2b9833cea28e19d178e767aee8d3
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/e9/e9cd2b9833cea28e19d178e767aee8d3
+      projectPath: Library/Artifacts/e9/e9cd2b9833cea28e19d178e767aee8d3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Library/Artifacts/ed/ed34fcb3f946037722908a7faf267e8d
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/ed/ed34fcb3f946037722908a7faf267e8d
+      projectPath: Library/Artifacts/ed/ed34fcb3f946037722908a7faf267e8d
+      originalPath: PrismGame/Library/Artifacts/de/de9855582f2e79adfa760e91acf00fad
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Library/EditorInstance.json
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/InspectorExpandedItems.asset
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/SceneVisibilityState.asset
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/SceneVisibilityState.asset
+      projectPath: Library/SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Assembly-CSharp.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Assembly-CSharp.pdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/PsdPlugin.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/PsdPlugin.dll
+      projectPath: Library/ScriptAssemblies/PsdPlugin.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/PsdPlugin.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/PsdPlugin.pdb
+      projectPath: Library/ScriptAssemblies/PsdPlugin.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.Animation.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.Animation.Runtime.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Common.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Common.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Common.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.Common.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Path.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Path.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Path.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.Path.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.PixelPerfect.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.pdb
+      projectPath: Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll
+      projectPath: Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.pdb
+      projectPath: Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll
+      projectPath: Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.pdb
+      projectPath: Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Mathematics.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Mathematics.dll
+      projectPath: Library/ScriptAssemblies/Unity.Mathematics.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Mathematics.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Mathematics.pdb
+      projectPath: Library/ScriptAssemblies/Unity.Mathematics.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Timeline.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Timeline.dll
+      projectPath: Library/ScriptAssemblies/Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.Timeline.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.Timeline.pdb
+      projectPath: Library/ScriptAssemblies/Unity.Timeline.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+      projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+      projectPath: Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+      projectPath: Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/UnityEditor.UI.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/UnityEditor.UI.dll
+      projectPath: Library/ScriptAssemblies/UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+      projectPath: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+      projectPath: Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ScriptAssemblies/UnityEngine.UI.dll
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/UnityEngine.UI.dll
+      projectPath: Library/ScriptAssemblies/UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/ShaderCache/EditorEncounteredVariants
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ShaderCache/EditorEncounteredVariants
+      projectPath: Library/ShaderCache/EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/SourceAssetDB
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/StateCache/Hierarchy/46b7a0-mainStage.json
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/StateCache/Hierarchy/46b7a0-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/46b7a0-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/StateCache/SceneView/d69a67-mainStage.json
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/StateCache/SceneView/d69a67-mainStage.json
+      projectPath: Library/StateCache/SceneView/d69a67-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/gituser.yaml
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/shadercompiler-UnityShaderCompiler1.log
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/shadercompiler-UnityShaderCompiler1.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Library/shadercompiler-UnityShaderCompiler2.log
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/shadercompiler-UnityShaderCompiler2.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Packages/packages-lock.json
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Packages/packages-lock.json
+      projectPath: Packages/packages-lock.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-06fedde9f55604b769323b58671d65a8
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-06fedde9f55604b769323b58671d65a8
+      projectPath: Temp/UnityTempFile-06fedde9f55604b769323b58671d65a8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-08be6bbb51a134b78b7926b43582db58
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-08be6bbb51a134b78b7926b43582db58
+      projectPath: Temp/UnityTempFile-08be6bbb51a134b78b7926b43582db58
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-14154610322744643810990e4dce202d
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-14154610322744643810990e4dce202d
+      projectPath: Temp/UnityTempFile-14154610322744643810990e4dce202d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-1af7a364f4232473787ebe0b091d2000
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-1af7a364f4232473787ebe0b091d2000
+      projectPath: Temp/UnityTempFile-1af7a364f4232473787ebe0b091d2000
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-20405bef3782b4b9b9a2578a0060f073
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-20405bef3782b4b9b9a2578a0060f073
+      projectPath: Temp/UnityTempFile-20405bef3782b4b9b9a2578a0060f073
+      originalPath: PrismGame/Temp/UnityTempFile-ade89e740f3454d33aa4f9ae836b5b75
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-230d4f212f92a4efa86ea5d75e76a9f0
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-230d4f212f92a4efa86ea5d75e76a9f0
+      projectPath: Temp/UnityTempFile-230d4f212f92a4efa86ea5d75e76a9f0
+      originalPath: PrismGame/Temp/UnityTempFile-f16e46a27a6bb4719858f9dcff6bf9f5
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-2badf1327275447c2b5df44ba272aab0
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-2badf1327275447c2b5df44ba272aab0
+      projectPath: Temp/UnityTempFile-2badf1327275447c2b5df44ba272aab0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-2dd260af7ca1941f0b870970fb947a06
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-2dd260af7ca1941f0b870970fb947a06
+      projectPath: Temp/UnityTempFile-2dd260af7ca1941f0b870970fb947a06
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-3288270547c224c21a52e063c892fa8f
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-3288270547c224c21a52e063c892fa8f
+      projectPath: Temp/UnityTempFile-3288270547c224c21a52e063c892fa8f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-3771fc922a5434c84823d00e473c6d46
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-3771fc922a5434c84823d00e473c6d46
+      projectPath: Temp/UnityTempFile-3771fc922a5434c84823d00e473c6d46
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-3773d0940fa0046a89782f718dbd5b02
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-3773d0940fa0046a89782f718dbd5b02
+      projectPath: Temp/UnityTempFile-3773d0940fa0046a89782f718dbd5b02
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-3bd1a4d9875f544bfb52c025a9868603
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-3bd1a4d9875f544bfb52c025a9868603
+      projectPath: Temp/UnityTempFile-3bd1a4d9875f544bfb52c025a9868603
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-3cefb33311d0d4738b9ebfea29b7c999
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-3cefb33311d0d4738b9ebfea29b7c999
+      projectPath: Temp/UnityTempFile-3cefb33311d0d4738b9ebfea29b7c999
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-465229caceb044ecc8ad745b04e7a526
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-465229caceb044ecc8ad745b04e7a526
+      projectPath: Temp/UnityTempFile-465229caceb044ecc8ad745b04e7a526
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-498686a9e44fd467fb90c6ac88a25fd2
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-498686a9e44fd467fb90c6ac88a25fd2
+      projectPath: Temp/UnityTempFile-498686a9e44fd467fb90c6ac88a25fd2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-560817d55e67f478f82efdd70769b7d9
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-560817d55e67f478f82efdd70769b7d9
+      projectPath: Temp/UnityTempFile-560817d55e67f478f82efdd70769b7d9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-58fcd33597cf64ff98f1389c147d2a3a
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-58fcd33597cf64ff98f1389c147d2a3a
+      projectPath: Temp/UnityTempFile-58fcd33597cf64ff98f1389c147d2a3a
+      originalPath: PrismGame/Temp/UnityTempFile-678bd73448b05459b91303b03e943f1d
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-5af65b19647dd447da5849480aa63cf6
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-5af65b19647dd447da5849480aa63cf6
+      projectPath: Temp/UnityTempFile-5af65b19647dd447da5849480aa63cf6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-62dfbfeb529ce4999a412bca848f1983
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-62dfbfeb529ce4999a412bca848f1983
+      projectPath: Temp/UnityTempFile-62dfbfeb529ce4999a412bca848f1983
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-63e5278c7740a4c36aa1eb031167b91a
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-63e5278c7740a4c36aa1eb031167b91a
+      projectPath: Temp/UnityTempFile-63e5278c7740a4c36aa1eb031167b91a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-6787dcd84d98847a8a2184321c45c7c2
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-6787dcd84d98847a8a2184321c45c7c2
+      projectPath: Temp/UnityTempFile-6787dcd84d98847a8a2184321c45c7c2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-697fc02bd080a4a2291fda8b22a53743
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-697fc02bd080a4a2291fda8b22a53743
+      projectPath: Temp/UnityTempFile-697fc02bd080a4a2291fda8b22a53743
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-6e8a5bde4eef445a0a4f5816934531c1
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-6e8a5bde4eef445a0a4f5816934531c1
+      projectPath: Temp/UnityTempFile-6e8a5bde4eef445a0a4f5816934531c1
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-6f3aeba68020f414dbbfcda9ab1a9ab6
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-6f3aeba68020f414dbbfcda9ab1a9ab6
+      projectPath: Temp/UnityTempFile-6f3aeba68020f414dbbfcda9ab1a9ab6
+      originalPath: PrismGame/Temp/UnityTempFile-04c37e013ca3844fbbbf2f81a415dc65
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-794baccfc6702488eacd76bd329df00e
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-794baccfc6702488eacd76bd329df00e
+      projectPath: Temp/UnityTempFile-794baccfc6702488eacd76bd329df00e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-7ed19791b3c2f432881d22fa351991ce
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-7ed19791b3c2f432881d22fa351991ce
+      projectPath: Temp/UnityTempFile-7ed19791b3c2f432881d22fa351991ce
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-96b6e66af671b44f6b11aabb2b95015e
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-96b6e66af671b44f6b11aabb2b95015e
+      projectPath: Temp/UnityTempFile-96b6e66af671b44f6b11aabb2b95015e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-9862f94166b404292bc9ea1dfc747672
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-9862f94166b404292bc9ea1dfc747672
+      projectPath: Temp/UnityTempFile-9862f94166b404292bc9ea1dfc747672
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-ab0d314411f0d466bb0435cfbda1f39a
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-ab0d314411f0d466bb0435cfbda1f39a
+      projectPath: Temp/UnityTempFile-ab0d314411f0d466bb0435cfbda1f39a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-b839c17564fb043ca8e0aa0e805d3fa6
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-b839c17564fb043ca8e0aa0e805d3fa6
+      projectPath: Temp/UnityTempFile-b839c17564fb043ca8e0aa0e805d3fa6
+      originalPath: PrismGame/Temp/UnityTempFile-220bd84e0767147f9878c6b780500728
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-ba83c86d9f30f4b7aaccb5457d0b37f6
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-ba83c86d9f30f4b7aaccb5457d0b37f6
+      projectPath: Temp/UnityTempFile-ba83c86d9f30f4b7aaccb5457d0b37f6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-bb4fcfd73f0be4503b1ec625154bc635
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-bb4fcfd73f0be4503b1ec625154bc635
+      projectPath: Temp/UnityTempFile-bb4fcfd73f0be4503b1ec625154bc635
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-c1b67986ca4a64b23807156c6d5ca0e4
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-c1b67986ca4a64b23807156c6d5ca0e4
+      projectPath: Temp/UnityTempFile-c1b67986ca4a64b23807156c6d5ca0e4
+      originalPath: PrismGame/Temp/UnityTempFile-5d8a1cbb7a12d4746b0f4dbe11a723b7
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-c673b0ac206524215bd62a1a15f8f262
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-c673b0ac206524215bd62a1a15f8f262
+      projectPath: Temp/UnityTempFile-c673b0ac206524215bd62a1a15f8f262
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-cf83fcaee2f954e29b0c9bef46251f49
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-cf83fcaee2f954e29b0c9bef46251f49
+      projectPath: Temp/UnityTempFile-cf83fcaee2f954e29b0c9bef46251f49
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-cfca9b55488c5426e9e5b2ed2646269e
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-cfca9b55488c5426e9e5b2ed2646269e
+      projectPath: Temp/UnityTempFile-cfca9b55488c5426e9e5b2ed2646269e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-e5c4f1c5711b049fba6d35d0c7ac1b23
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-e5c4f1c5711b049fba6d35d0c7ac1b23
+      projectPath: Temp/UnityTempFile-e5c4f1c5711b049fba6d35d0c7ac1b23
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-e698485da48474a8eb57c4ccc46866db
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-e698485da48474a8eb57c4ccc46866db
+      projectPath: Temp/UnityTempFile-e698485da48474a8eb57c4ccc46866db
+      originalPath: PrismGame/Temp/UnityTempFile-236bb026adbb44bd796e72c123aa62c2
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-e93f18fd17eb74f43a2df564d9aa1f04
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-e93f18fd17eb74f43a2df564d9aa1f04
+      projectPath: Temp/UnityTempFile-e93f18fd17eb74f43a2df564d9aa1f04
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-e98b071dabc3046f8a6f13b39a2dde79
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-e98b071dabc3046f8a6f13b39a2dde79
+      projectPath: Temp/UnityTempFile-e98b071dabc3046f8a6f13b39a2dde79
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-eacb665611dcd45c1985f18d6e15c1fb
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-eacb665611dcd45c1985f18d6e15c1fb
+      projectPath: Temp/UnityTempFile-eacb665611dcd45c1985f18d6e15c1fb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-f34af5ff50f7b4d268581ed3cd02ab4f
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f34af5ff50f7b4d268581ed3cd02ab4f
+      projectPath: Temp/UnityTempFile-f34af5ff50f7b4d268581ed3cd02ab4f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-f8727222e07984cfbbe24a3b7a1baed1
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f8727222e07984cfbbe24a3b7a1baed1
+      projectPath: Temp/UnityTempFile-f8727222e07984cfbbe24a3b7a1baed1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-f8dd89c5ab849481b978f0f8605ff896
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f8dd89c5ab849481b978f0f8605ff896
+      projectPath: Temp/UnityTempFile-f8dd89c5ab849481b978f0f8605ff896
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-fb0720f2f668341ff9ca7a59527102db
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-fb0720f2f668341ff9ca7a59527102db
+      projectPath: Temp/UnityTempFile-fb0720f2f668341ff9ca7a59527102db
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: PrismGame/Temp/UnityTempFile-fd5eaa5f76e094467981baf4992620e6
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-fd5eaa5f76e094467981baf4992620e6
+      projectPath: Temp/UnityTempFile-fd5eaa5f76e094467981baf4992620e6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: PrismGame/Temp/__Backupscenes/0.backup
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: PrismGame/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 92d3e47662df2c062aa9a75ffa718e1b4d13e4c1
     mergeA: 
     mergeB: 

@@ -70,6 +70,7 @@
     <Compile Include="Assets\Laser.cs" />
     <Compile Include="Assets\Laser2.cs" />
     <Compile Include="Assets\Laser3.cs" />
+    <Compile Include="Assets\Laser4.cs" />
     <Compile Include="Assets\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\MainMenu\PlayMenuScript.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

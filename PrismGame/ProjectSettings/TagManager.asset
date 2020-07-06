@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - PointMarker
+  - Prism
+  - Wall
   layers:
   - Default
   - TransparentFX
