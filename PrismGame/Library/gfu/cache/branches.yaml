@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-07-06T13:42:11.978+02:00
+  lastUpdatedAtString: 2020-07-06T13:43:48.353+02:00
   initializedAtString: 2020-07-06T13:42:11.965+02:00
   localBranches:
   - name: PrismInteraction
     tracking: origin/PrismInteraction
   - name: PrismReflection
-    tracking: 
+    tracking: origin/PrismReflection
   - name: master
     tracking: origin/master
   remoteBranches:
@@ -28,6 +28,8 @@ MonoBehaviour:
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/PrismInteraction
+    tracking: '[None]'
+  - name: origin/PrismReflection
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
@@ -52,9 +54,9 @@ MonoBehaviour:
       trackingBranch: PrismInteraction
     - name: PrismReflection
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: git@github.com:Phlipinator/PrismGame.git
+      trackingBranch: PrismReflection
     - name: master
       remote:
         name: origin
@@ -68,6 +70,7 @@ MonoBehaviour:
       - FailBranch
       - HEAD
       - PrismInteraction
+      - PrismReflection
       - master
     subKeyValues:
     - Values:
@@ -82,6 +85,11 @@ MonoBehaviour:
           url: git@github.com:Phlipinator/PrismGame.git
         trackingBranch: 
       - name: PrismInteraction
+        remote:
+          name: origin
+          url: git@github.com:Phlipinator/PrismGame.git
+        trackingBranch: 
+      - name: PrismReflection
         remote:
           name: origin
           url: git@github.com:Phlipinator/PrismGame.git

@@ -40,12 +40,14 @@ public class Laser4 : MonoBehaviour
             if (hit.transform.gameObject.tag.Equals("Prism"))
             {
                 laserReflected++;
-                segmentsCounter += 2;
+                segmentsCounter += 3;
                 lineRenderer.positionCount = segmentsCounter;
-                lineRenderer.SetPosition(segmentsCounter - 2, lastLaserPosition);
+                lineRenderer.SetPosition(segmentsCounter - 3, Vector3.MoveTowards(hit.point, lastLaserPosition, 0.01f));
+                lineRenderer.SetPosition(segmentsCounter - 2, hit.point);
                 lineRenderer.SetPosition(segmentsCounter - 1, hit.point);
-                lastLaserPosition = hit.point;
-                laserDirection = Vector3.Reflect(laserDirection.normalized, hit.normal);
+                lastLaserPosition = hit.point + laserDirection*2;
+                laserDirection = Vector2.Reflect(laserDirection.normalized, hit.normal);
+
             }
             else if(hit.transform.gameObject.tag.Equals("Wall"))
             {
@@ -53,14 +55,17 @@ public class Laser4 : MonoBehaviour
                 segmentsCounter++;
                 lineRenderer.positionCount = segmentsCounter;
                 lineRenderer.SetPosition(segmentsCounter - 1, hit.point);
-                lastLaserPosition = hit.point;
-                laserDirection = Vector3.Reflect(laserDirection.normalized, hit.normal);
+                lastLaserPosition = hit.point +laserDirection*2;
+                laserDirection = Vector2.Reflect(laserDirection.normalized, hit.normal);
 
 
                 loopActive = false;
             }
             else
             {
+                laserReflected++;
+                segmentsCounter++;
+                lineRenderer.positionCount = segmentsCounter;
                 lineRenderer.SetPosition(segmentsCounter - 1, lastLaserPosition);
                 lineRenderer.SetPosition(segmentsCounter, (lastLaserPosition + (laserDirection.normalized * 10)));
 
