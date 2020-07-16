@@ -16,14 +16,14 @@ public class Laser : MonoBehaviour
         lineRenderer = GetComponent<LineRenderer>();
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         if (!Application.isPlaying)
         {
             return;
         }
         DrawPredictedReflection(this.transform.position, transform.up, maxReflectionCount, maxSplitCount);
-    }
+    }*/
 
     private void Update()
     {
@@ -33,17 +33,17 @@ public class Laser : MonoBehaviour
     void DrawPredictedReflection(Vector2 position, Vector2 direction, int reflectionsRemaining, int splitsRemaining)
     {
         var gizmoHue = (reflectionsRemaining / (this.maxReflectionCount + 1f));
-        Gizmos.color = Color.HSVToRGB(gizmoHue, 1, 1);
+        //Gizmos.color = Color.HSVToRGB(gizmoHue, 1, 1);
 
         RaycastHit2D hit2D = Physics2D.Raycast(position, direction, maxStepDistance);
 
         if (hit2D) //did we hit somthing?
         {
-            Gizmos.DrawLine(position, hit2D.point);
+            //Gizmos.DrawLine(position, hit2D.point);
             lineRenderer.positionCount = maxReflectionCount - reflectionsRemaining + 2;
             lineRenderer.SetPosition(this.maxReflectionCount - reflectionsRemaining, position);
             lineRenderer.SetPosition(this.maxReflectionCount - reflectionsRemaining + 1, hit2D.point);
-            Gizmos.DrawWireSphere(hit2D.point, 0.25f);
+            //Gizmos.DrawWireSphere(hit2D.point, 0.25f);
 
             if (hit2D.transform.gameObject.tag == "Goal")
             {
