@@ -56,16 +56,15 @@ public class Laser : MonoBehaviour
                 Debug.Log("Obstacle hit");
                 //TODO: Insert Obstacle interaction
 
-               // GameObject obstacle = hit2D.collider.gameObject;
-               // obstacle.GetComponent<ObstacleScript>().timer = 50;
-               // ObstacleScript obstacleScript = obstacle.GetComponent(typeof(ObstacleScript)) as ObstacleScript;
+                GameObject obstacle = hit2D.collider.gameObject;
+                ObstacleScript obstacleScript = obstacle.GetComponent<ObstacleScript>();
 
-               // int timer = obstacleScript.getTimer();
+                obstacleScript.timer -= 1;
 
-               // Debug.Log(timer);
-
-                //Destroy(hit2D.collider.gameObject);
-
+                /*if(obstacleScript.timer == 0)
+                {
+                    Destroy(obstacle);
+                }*/
             }
 
            

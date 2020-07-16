@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Obstacle : MonoBehaviour
+public class ObstacleScript : MonoBehaviour
 {
-
-    public int timer = 60;
+    private int initialTimer = 100;
+    public int timer = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -16,11 +16,16 @@ public class Obstacle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
 
-    public int getTimer()
-    {
-        return timer;
+        if(timer <= initialTimer / 2)
+        {
+            //Farbe ändern o.ä. Aktion
+        }
+
+        if(timer == 0)
+        {
+            Destroy(this.gameObject);
+        }
+        
     }
 }
