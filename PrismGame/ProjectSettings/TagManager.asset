@@ -52,3 +52,6 @@ TagManager:
   - name: Laser
     uniqueID: 3893362693
     locked: 0
+  - name: Walls
+    uniqueID: 3931095325
+    locked: 0

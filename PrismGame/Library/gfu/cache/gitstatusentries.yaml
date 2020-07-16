@@ -13,18 +13,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-07-16T16:29:02.146+02:00
-  initializedAtString: 2020-07-16T16:25:08.715+02:00
+  lastUpdatedAtString: 2020-07-16T18:22:09.426+02:00
+  initializedAtString: 2020-07-16T16:36:27.241+02:00
   entries:
-  - path: PrismGame/Library/gfu/cache/branches.yaml
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/branches.yaml
-    projectPath: Library/gfu/cache/branches.yaml
+  - path: PrismGame/Assets/Scenes/High.unity
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Scenes/High.unity
+    projectPath: Assets/Scenes/High.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: PrismGame/Library/gfu/cache/gitlog.yaml
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/gitlog.yaml
-    projectPath: Library/gfu/cache/gitlog.yaml
+  - path: PrismGame/Library/ArtifactDB
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ArtifactDB
+    projectPath: Library/ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/Library/Artifacts/c0/c0bd9e99f361d540e0104eae372851a0
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/c0/c0bd9e99f361d540e0104eae372851a0
+    projectPath: Library/Artifacts/c0/c0bd9e99f361d540e0104eae372851a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/cb/cb71a629887076fd9ecc80bfbc6849c0
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/cb/cb71a629887076fd9ecc80bfbc6849c0
+    projectPath: Library/Artifacts/cb/cb71a629887076fd9ecc80bfbc6849c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/EditorInstance.json
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -46,9 +70,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: PrismGame/Library/InspectorExpandedItems.asset
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/Library/SceneVisibilityState.asset
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/SceneVisibilityState.asset
+    projectPath: Library/SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: PrismGame/Library/SourceAssetDB
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/SourceAssetDB
     projectPath: Library/SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/Library/StateCache/Hierarchy/82de71-mainStage.json
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/StateCache/Hierarchy/82de71-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/82de71-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/Library/StateCache/SceneView/618bbc-mainStage.json
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/StateCache/SceneView/618bbc-mainStage.json
+    projectPath: Library/StateCache/SceneView/618bbc-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/ProjectSettings/TagManager.asset
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
