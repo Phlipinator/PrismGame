@@ -1,19 +1,16 @@
 ﻿<Properties StartupConfiguration="{0D312954-2D99-4C1D-0827-86655757E64F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Laser4.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Obstacle.cs">
     <Files>
-      <File FileName="Assets/Laser4.cs" Line="58" Column="64" />
-      <File FileName="Assets/Laser.cs" Line="21" Column="9" NotebookId="1" />
-      <File FileName="Assets/Laser2.cs" NotebookId="1" />
-      <File FileName="Assets/DrawLine.cs" NotebookId="1" />
-      <File FileName="Assets/Laser3.cs" NotebookId="1" />
-      <File FileName="Assets/Laser5.cs" Line="73" Column="16" NotebookId="1" />
+      <File FileName="Assets/Laser/Laser.cs" Line="60" Column="52" />
+      <File FileName="Assets/Obstacle.cs" Line="8" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PrismGame" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Laser4.cs" selected="True" />
+              <Node name="Laser" expanded="True" />
+              <Node name="Obstacle.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -22,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a9fd275b-c799-422f-8c09-de4c16cf40f2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="187a6417-3eb0-48ac-9b2c-e8e43502ce7a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

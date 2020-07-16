@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-07-13T11:27:14.412+02:00
-  initializedAtString: 2020-07-13T10:14:53.758+02:00
+  lastUpdatedAtString: 2020-07-16T15:37:43.621+02:00
+  initializedAtString: 2020-07-16T14:17:40.966+02:00
   entries:
   - path: PrismGame/.vs/PrismGame/xs/project-cache/Assembly-CSharp-Debug.json
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/.vs/PrismGame/xs/project-cache/Assembly-CSharp-Debug.json
@@ -34,24 +34,210 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: PrismGame/Assets/Circle.png
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Circle.png
+    projectPath: Assets/Circle.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Circle.png.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Circle.png.meta
+    projectPath: Assets/Circle.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/DrawLine.cs
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/DrawLine.cs
+    projectPath: Assets/DrawLine.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/DrawLine.cs.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/DrawLine.cs.meta
+    projectPath: Assets/DrawLine.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser.meta
+    projectPath: Assets/Laser.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Laser.cs
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser.cs
+    projectPath: Assets/Laser.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser.cs.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser.cs.meta
+    projectPath: Assets/Laser.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser.mat
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser.mat
+    projectPath: Assets/Laser.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser.mat.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser.mat.meta
+    projectPath: Assets/Laser.mat.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser.png
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser.png
+    projectPath: Assets/Laser.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser.png.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser.png.meta
+    projectPath: Assets/Laser.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser/Laser.cs
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser/Laser.cs
+    projectPath: Assets/Laser/Laser.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Laser/Laser.cs.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser/Laser.cs.meta
+    projectPath: Assets/Laser/Laser.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Laser/Laser.mat
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser/Laser.mat
+    projectPath: Assets/Laser/Laser.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Laser/Laser.mat.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser/Laser.mat.meta
+    projectPath: Assets/Laser/Laser.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Laser/Laser.png
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser/Laser.png
+    projectPath: Assets/Laser/Laser.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Laser/Laser.png.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser/Laser.png.meta
+    projectPath: Assets/Laser/Laser.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Laser2.cs
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser2.cs
+    projectPath: Assets/Laser2.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser2.cs.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser2.cs.meta
+    projectPath: Assets/Laser2.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser3.cs
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser3.cs
+    projectPath: Assets/Laser3.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser3.cs.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser3.cs.meta
+    projectPath: Assets/Laser3.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Assets/Laser4.cs
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser4.cs
     projectPath: Assets/Laser4.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Laser4.cs.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser4.cs.meta
+    projectPath: Assets/Laser4.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Assets/Laser5.cs
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser5.cs
     projectPath: Assets/Laser5.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Assets/Laser5.cs.meta
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Laser5.cs.meta
     projectPath: Assets/Laser5.cs.meta
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/LineGenerator.prefab
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/LineGenerator.prefab
+    projectPath: Assets/LineGenerator.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/LineGenerator.prefab.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/LineGenerator.prefab.meta
+    projectPath: Assets/LineGenerator.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/LinePointMarker.prefab
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/LinePointMarker.prefab
+    projectPath: Assets/LinePointMarker.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/LinePointMarker.prefab.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/LinePointMarker.prefab.meta
+    projectPath: Assets/LinePointMarker.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/ObstacleScript.cs
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/ObstacleScript.cs
+    projectPath: Assets/ObstacleScript.cs
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: PrismGame/Assets/ObstacleScript.cs.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/ObstacleScript.cs.meta
+    projectPath: Assets/ObstacleScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Assets/Output.png
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Output.png
+    projectPath: Assets/Output.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Output.png.meta
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Output.png.meta
+    projectPath: Assets/Output.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Assets/Scenes/Low.unity
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Assets/Scenes/Low.unity
+    projectPath: Assets/Scenes/Low.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: PrismGame/Library/AnnotationManager
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/AnnotationManager
     projectPath: Library/AnnotationManager
@@ -64,135 +250,207 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: PrismGame/Library/Artifacts/02/0283083abbfba37c4d32a9499006f576
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/02/0283083abbfba37c4d32a9499006f576
-    projectPath: Library/Artifacts/02/0283083abbfba37c4d32a9499006f576
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: PrismGame/Library/Artifacts/03/03001322847b037e2895eb05cd5ec847
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/03/03001322847b037e2895eb05cd5ec847
     projectPath: Library/Artifacts/03/03001322847b037e2895eb05cd5ec847
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/0a/0ab17747066b0f58980db27244ddf699
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/0a/0ab17747066b0f58980db27244ddf699
-    projectPath: Library/Artifacts/0a/0ab17747066b0f58980db27244ddf699
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/03/036d9de80ed589f603367ccc7f7e475b
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/03/036d9de80ed589f603367ccc7f7e475b
+    projectPath: Library/Artifacts/03/036d9de80ed589f603367ccc7f7e475b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/0c/0c6a876346efc011fd4089ab0443591b
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/0c/0c6a876346efc011fd4089ab0443591b
+    projectPath: Library/Artifacts/0c/0c6a876346efc011fd4089ab0443591b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/0d/0d8274a66b488702335c5be8b3326711
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/0d/0d8274a66b488702335c5be8b3326711
+    projectPath: Library/Artifacts/0d/0d8274a66b488702335c5be8b3326711
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Library/Artifacts/12/12ac1ef35db3c9424c540a622fc32794
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/12/12ac1ef35db3c9424c540a622fc32794
     projectPath: Library/Artifacts/12/12ac1ef35db3c9424c540a622fc32794
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Library/Artifacts/15/15794beeeb6d2f58d5fa092e26d7ecb6
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/15/15794beeeb6d2f58d5fa092e26d7ecb6
     projectPath: Library/Artifacts/15/15794beeeb6d2f58d5fa092e26d7ecb6
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/17/17096d18b5b2e6fe3c873749244e0bbf
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/17/17096d18b5b2e6fe3c873749244e0bbf
+    projectPath: Library/Artifacts/17/17096d18b5b2e6fe3c873749244e0bbf
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/17/1709835f24a0d2a01e1ed04c23ab7d3a
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/17/1709835f24a0d2a01e1ed04c23ab7d3a
-    projectPath: Library/Artifacts/17/1709835f24a0d2a01e1ed04c23ab7d3a
+  - path: PrismGame/Library/Artifacts/20/20648c28a34f277c575bfe9052c2cf66
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/20/20648c28a34f277c575bfe9052c2cf66
+    projectPath: Library/Artifacts/20/20648c28a34f277c575bfe9052c2cf66
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/1e/1e357460a5636adcaea28f4bafdb030b
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/1e/1e357460a5636adcaea28f4bafdb030b
-    projectPath: Library/Artifacts/1e/1e357460a5636adcaea28f4bafdb030b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/20/20b2000009c3516b442473d59e7126f0
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/20/20b2000009c3516b442473d59e7126f0
+    projectPath: Library/Artifacts/20/20b2000009c3516b442473d59e7126f0
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/22/226cf957111725bc2aaa3a20ee27a748
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/22/226cf957111725bc2aaa3a20ee27a748
+    projectPath: Library/Artifacts/22/226cf957111725bc2aaa3a20ee27a748
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/23/235b91adcd0982816ab7195038df9f88
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/23/235b91adcd0982816ab7195038df9f88
+    projectPath: Library/Artifacts/23/235b91adcd0982816ab7195038df9f88
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/24/2441dc6794d1589af1ea09af88350d9e
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/24/2441dc6794d1589af1ea09af88350d9e
+    projectPath: Library/Artifacts/24/2441dc6794d1589af1ea09af88350d9e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/2c/2ce94897c778c8012bd9b701aa2fb08c
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/2c/2ce94897c778c8012bd9b701aa2fb08c
+    projectPath: Library/Artifacts/2c/2ce94897c778c8012bd9b701aa2fb08c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/30/305d5c699fabcc0a940ab46f70272a0e
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/30/305d5c699fabcc0a940ab46f70272a0e
+    projectPath: Library/Artifacts/30/305d5c699fabcc0a940ab46f70272a0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Library/Artifacts/35/3599809aac75181588cdc7a5cba4622b
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/35/3599809aac75181588cdc7a5cba4622b
     projectPath: Library/Artifacts/35/3599809aac75181588cdc7a5cba4622b
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/37/37865bb2182c816ab3d5412ec3dcfa5b
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/37/37865bb2182c816ab3d5412ec3dcfa5b
+    projectPath: Library/Artifacts/37/37865bb2182c816ab3d5412ec3dcfa5b
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/38/38f32f15f33e911473b744ea5c3316eb
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/38/38f32f15f33e911473b744ea5c3316eb
-    projectPath: Library/Artifacts/38/38f32f15f33e911473b744ea5c3316eb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/3c/3c3eed9b170bc35de648d8f48304f2aa
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/3c/3c3eed9b170bc35de648d8f48304f2aa
-    projectPath: Library/Artifacts/3c/3c3eed9b170bc35de648d8f48304f2aa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: PrismGame/Library/Artifacts/3e/3eacd8705fee8df866e9ba3d087004d3
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/3e/3eacd8705fee8df866e9ba3d087004d3
     projectPath: Library/Artifacts/3e/3eacd8705fee8df866e9ba3d087004d3
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/40/409a55407d567cbe8f547424f8b2608d
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/40/409a55407d567cbe8f547424f8b2608d
+    projectPath: Library/Artifacts/40/409a55407d567cbe8f547424f8b2608d
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/4e/4e2402f1e5ec7c53bccec30eaf747258
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/4e/4e2402f1e5ec7c53bccec30eaf747258
-    projectPath: Library/Artifacts/4e/4e2402f1e5ec7c53bccec30eaf747258
+  - path: PrismGame/Library/Artifacts/46/46bec89c951ac4a7403d914eca26b54d
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/46/46bec89c951ac4a7403d914eca26b54d
+    projectPath: Library/Artifacts/46/46bec89c951ac4a7403d914eca26b54d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/52/52185ef22158ab398d9e3bdb42405916
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/52/52185ef22158ab398d9e3bdb42405916
-    projectPath: Library/Artifacts/52/52185ef22158ab398d9e3bdb42405916
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/4c/4c378fafdda3d04d7c2b8ccf40b7ce6b
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/4c/4c378fafdda3d04d7c2b8ccf40b7ce6b
+    projectPath: Library/Artifacts/4c/4c378fafdda3d04d7c2b8ccf40b7ce6b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/4e/4e5b3a0a98fd4437f32732683a745ba1
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/4e/4e5b3a0a98fd4437f32732683a745ba1
+    projectPath: Library/Artifacts/4e/4e5b3a0a98fd4437f32732683a745ba1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/4e/4eea5dca2d74d52df495a7d07dddecbc
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/4e/4eea5dca2d74d52df495a7d07dddecbc
+    projectPath: Library/Artifacts/4e/4eea5dca2d74d52df495a7d07dddecbc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Library/Artifacts/54/54467b220052656b12c31a6b60819d07
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/54/54467b220052656b12c31a6b60819d07
     projectPath: Library/Artifacts/54/54467b220052656b12c31a6b60819d07
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/55/553a61ac31967e5d58f8ca0c41595ae2
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/55/553a61ac31967e5d58f8ca0c41595ae2
+    projectPath: Library/Artifacts/55/553a61ac31967e5d58f8ca0c41595ae2
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/5b/5b908c8ed5dab91b342bb11777a9fac2
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/5b/5b908c8ed5dab91b342bb11777a9fac2
-    projectPath: Library/Artifacts/5b/5b908c8ed5dab91b342bb11777a9fac2
+  - path: PrismGame/Library/Artifacts/56/5609fa216e25fbdfab848288e73d5080
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/56/5609fa216e25fbdfab848288e73d5080
+    projectPath: Library/Artifacts/56/5609fa216e25fbdfab848288e73d5080
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/5e/5ed4d667464d8ea9f25b1307815693a1
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/5e/5ed4d667464d8ea9f25b1307815693a1
-    projectPath: Library/Artifacts/5e/5ed4d667464d8ea9f25b1307815693a1
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/63/63b669e42d48446b5ce905ff6f1acc40
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/63/63b669e42d48446b5ce905ff6f1acc40
+    projectPath: Library/Artifacts/63/63b669e42d48446b5ce905ff6f1acc40
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/61/617add3f296df91c8a1e2a04f7614121
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/61/617add3f296df91c8a1e2a04f7614121
-    projectPath: Library/Artifacts/61/617add3f296df91c8a1e2a04f7614121
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/66/66120f4edceccb0519a16416fd56d77e
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/66/66120f4edceccb0519a16416fd56d77e
+    projectPath: Library/Artifacts/66/66120f4edceccb0519a16416fd56d77e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Library/Artifacts/66/66240b686e7d7b75ef27ceab4473ff43
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/66/66240b686e7d7b75ef27ceab4473ff43
     projectPath: Library/Artifacts/66/66240b686e7d7b75ef27ceab4473ff43
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Library/Artifacts/69/692056a9157f8c0a1742ea484dc9210f
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/69/692056a9157f8c0a1742ea484dc9210f
     projectPath: Library/Artifacts/69/692056a9157f8c0a1742ea484dc9210f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/6b/6bc6ca0afd044dbc40cffa4132506b36
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/6b/6bc6ca0afd044dbc40cffa4132506b36
-    projectPath: Library/Artifacts/6b/6bc6ca0afd044dbc40cffa4132506b36
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/69/69d2334085c92d55f2bf08945497eb4a
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/69/69d2334085c92d55f2bf08945497eb4a
+    projectPath: Library/Artifacts/69/69d2334085c92d55f2bf08945497eb4a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/6b/6b98c0595705326f8d598d567d0a227a
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/6b/6b98c0595705326f8d598d567d0a227a
+    projectPath: Library/Artifacts/6b/6b98c0595705326f8d598d567d0a227a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Library/Artifacts/6f/6f072547147af75b3e009fb34de62345
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/6f/6f072547147af75b3e009fb34de62345
     projectPath: Library/Artifacts/6f/6f072547147af75b3e009fb34de62345
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Library/Artifacts/70/702af7f30d2645aa55570d7f58284ec6
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/70/702af7f30d2645aa55570d7f58284ec6
     projectPath: Library/Artifacts/70/702af7f30d2645aa55570d7f58284ec6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/71/71dc0c4f8bf0ac05e710dd8a04c5673c
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/71/71dc0c4f8bf0ac05e710dd8a04c5673c
+    projectPath: Library/Artifacts/71/71dc0c4f8bf0ac05e710dd8a04c5673c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -200,29 +458,29 @@ MonoBehaviour:
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/77/77923159779907474eb2f3b56bb227b5
     projectPath: Library/Artifacts/77/77923159779907474eb2f3b56bb227b5
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/80/807d1163fb859ddf3cbc27ffdc168f28
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/80/807d1163fb859ddf3cbc27ffdc168f28
+    projectPath: Library/Artifacts/80/807d1163fb859ddf3cbc27ffdc168f28
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Library/Artifacts/83/8309f7f7da76d0012ba84dfd8c7e14cd
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/83/8309f7f7da76d0012ba84dfd8c7e14cd
+    projectPath: Library/Artifacts/83/8309f7f7da76d0012ba84dfd8c7e14cd
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/7c/7c5563af9b92dd66ea877027d85a0dfb
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/7c/7c5563af9b92dd66ea877027d85a0dfb
-    projectPath: Library/Artifacts/7c/7c5563af9b92dd66ea877027d85a0dfb
+  - path: PrismGame/Library/Artifacts/86/865e16d8cf79cf628054de28a81fdbda
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/86/865e16d8cf79cf628054de28a81fdbda
+    projectPath: Library/Artifacts/86/865e16d8cf79cf628054de28a81fdbda
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/84/84f0f5ab82ebbb520a89aa01a1048b9d
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/84/84f0f5ab82ebbb520a89aa01a1048b9d
-    projectPath: Library/Artifacts/84/84f0f5ab82ebbb520a89aa01a1048b9d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Library/Artifacts/87/872beb95f4b93ebeb17f5800ebcdebeb
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/87/872beb95f4b93ebeb17f5800ebcdebeb
     projectPath: Library/Artifacts/87/872beb95f4b93ebeb17f5800ebcdebeb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/8a/8a0e616efe458e6f565710a296eed8b3
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/8a/8a0e616efe458e6f565710a296eed8b3
-    projectPath: Library/Artifacts/8a/8a0e616efe458e6f565710a296eed8b3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -230,89 +488,125 @@ MonoBehaviour:
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/99/9929a6ce02b3e5675b8b3032b747c235
     projectPath: Library/Artifacts/99/9929a6ce02b3e5675b8b3032b747c235
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/9d/9d10f0d34f82a834c3400aa989557bca
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/9d/9d10f0d34f82a834c3400aa989557bca
-    projectPath: Library/Artifacts/9d/9d10f0d34f82a834c3400aa989557bca
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/a9/a998a4c7ad9f3bbbf147195d40fb9115
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/a9/a998a4c7ad9f3bbbf147195d40fb9115
-    projectPath: Library/Artifacts/a9/a998a4c7ad9f3bbbf147195d40fb9115
+  - path: PrismGame/Library/Artifacts/9b/9be7bddf5fe56f2664b9734c72e9ce93
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/9b/9be7bddf5fe56f2664b9734c72e9ce93
+    projectPath: Library/Artifacts/9b/9be7bddf5fe56f2664b9734c72e9ce93
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/aa/aa7d77018edd6dcb28815b7eab71be75
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/aa/aa7d77018edd6dcb28815b7eab71be75
-    projectPath: Library/Artifacts/aa/aa7d77018edd6dcb28815b7eab71be75
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/aa/aaad83d09077deca4df9e0e20cc15234
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/aa/aaad83d09077deca4df9e0e20cc15234
-    projectPath: Library/Artifacts/aa/aaad83d09077deca4df9e0e20cc15234
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/c6/c62be54d0d5148ecac7d8c02485ba983
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/c6/c62be54d0d5148ecac7d8c02485ba983
-    projectPath: Library/Artifacts/c6/c62be54d0d5148ecac7d8c02485ba983
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/c6/c6824ecbeb2ba7aecd50dcf3cd37a0d8
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/c6/c6824ecbeb2ba7aecd50dcf3cd37a0d8
-    projectPath: Library/Artifacts/c6/c6824ecbeb2ba7aecd50dcf3cd37a0d8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/c7/c7835d66ce3eca93649a450d72b7b074
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/c7/c7835d66ce3eca93649a450d72b7b074
-    projectPath: Library/Artifacts/c7/c7835d66ce3eca93649a450d72b7b074
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/d8/d81617175351eb6f7db20a698eef5da3
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/d8/d81617175351eb6f7db20a698eef5da3
-    projectPath: Library/Artifacts/d8/d81617175351eb6f7db20a698eef5da3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/ee/ee83a1337225b5a5478529e1164aa7bb
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/ee/ee83a1337225b5a5478529e1164aa7bb
-    projectPath: Library/Artifacts/ee/ee83a1337225b5a5478529e1164aa7bb
+  - path: PrismGame/Library/Artifacts/9e/9e8c5b562c6c2d9462e741809a881c8c
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/9e/9e8c5b562c6c2d9462e741809a881c8c
+    projectPath: Library/Artifacts/9e/9e8c5b562c6c2d9462e741809a881c8c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Library/Artifacts/f0/f049f066e15657fdfe3a75f5f0e82fa4
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/f0/f049f066e15657fdfe3a75f5f0e82fa4
-    projectPath: Library/Artifacts/f0/f049f066e15657fdfe3a75f5f0e82fa4
+  - path: PrismGame/Library/Artifacts/a2/a2928dbac1098735b0054cd75664e2e2
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/a2/a2928dbac1098735b0054cd75664e2e2
+    projectPath: Library/Artifacts/a2/a2928dbac1098735b0054cd75664e2e2
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/f0/f053211e1d3d93d3e19cf16756b0df49
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/f0/f053211e1d3d93d3e19cf16756b0df49
-    projectPath: Library/Artifacts/f0/f053211e1d3d93d3e19cf16756b0df49
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/a8/a81f63f36fb225c140c3dcd97ce16eef
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/a8/a81f63f36fb225c140c3dcd97ce16eef
+    projectPath: Library/Artifacts/a8/a81f63f36fb225c140c3dcd97ce16eef
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/fd/fdceecea16a03264452cd55c9b1201b3
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/fd/fdceecea16a03264452cd55c9b1201b3
-    projectPath: Library/Artifacts/fd/fdceecea16a03264452cd55c9b1201b3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/ad/adfe367bde0cd21af93aa780c1906620
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/ad/adfe367bde0cd21af93aa780c1906620
+    projectPath: Library/Artifacts/ad/adfe367bde0cd21af93aa780c1906620
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Library/Artifacts/ff/ffd1d65261a3bfd7219dba06d923d368
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/ff/ffd1d65261a3bfd7219dba06d923d368
-    projectPath: Library/Artifacts/ff/ffd1d65261a3bfd7219dba06d923d368
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/bd/bda1817798e70954c1c0805e496f336b
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/bd/bda1817798e70954c1c0805e496f336b
+    projectPath: Library/Artifacts/bd/bda1817798e70954c1c0805e496f336b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/c0/c03812599dddaa0db0a61635fd2e19a3
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/c0/c03812599dddaa0db0a61635fd2e19a3
+    projectPath: Library/Artifacts/c0/c03812599dddaa0db0a61635fd2e19a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/c6/c63541dad0018940f4ca847e7938be5c
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/c6/c63541dad0018940f4ca847e7938be5c
+    projectPath: Library/Artifacts/c6/c63541dad0018940f4ca847e7938be5c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/c8/c86b5c523c5b1a636632971f5d8c5515
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/c8/c86b5c523c5b1a636632971f5d8c5515
+    projectPath: Library/Artifacts/c8/c86b5c523c5b1a636632971f5d8c5515
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/d0/d0c56b131d950f1b334a0d4f7ca9d9a3
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/d0/d0c56b131d950f1b334a0d4f7ca9d9a3
+    projectPath: Library/Artifacts/d0/d0c56b131d950f1b334a0d4f7ca9d9a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/d7/d7b837628006b43a44a9a7a9e1954d84
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/d7/d7b837628006b43a44a9a7a9e1954d84
+    projectPath: Library/Artifacts/d7/d7b837628006b43a44a9a7a9e1954d84
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/dd/dd9f08f9ff293af7ffc92c36488d6442
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/dd/dd9f08f9ff293af7ffc92c36488d6442
+    projectPath: Library/Artifacts/dd/dd9f08f9ff293af7ffc92c36488d6442
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/e1/e10293e0a41d4266251feb2bf88df528
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/e1/e10293e0a41d4266251feb2bf88df528
+    projectPath: Library/Artifacts/e1/e10293e0a41d4266251feb2bf88df528
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/e1/e188e75124b03fed78c8645e268e5986
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/e1/e188e75124b03fed78c8645e268e5986
+    projectPath: Library/Artifacts/e1/e188e75124b03fed78c8645e268e5986
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/f3/f3a719d4dea6ed526ab92d0e6d177525
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/f3/f3a719d4dea6ed526ab92d0e6d177525
+    projectPath: Library/Artifacts/f3/f3a719d4dea6ed526ab92d0e6d177525
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/f3/f3ee934fc4a1638ca62b4dc3ce8ebe5e
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/f3/f3ee934fc4a1638ca62b4dc3ce8ebe5e
+    projectPath: Library/Artifacts/f3/f3ee934fc4a1638ca62b4dc3ce8ebe5e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/f6/f6b78e6994a07445823b965f8b569520
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/f6/f6b78e6994a07445823b965f8b569520
+    projectPath: Library/Artifacts/f6/f6b78e6994a07445823b965f8b569520
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/Artifacts/f9/f9f8d5f4c60dbdaad3e50cb2c5fa44b9
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/Artifacts/f9/f9f8d5f4c60dbdaad3e50cb2c5fa44b9
+    projectPath: Library/Artifacts/f9/f9f8d5f4c60dbdaad3e50cb2c5fa44b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Library/CurrentLayout-default.dwlt
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/CurrentLayout-default.dwlt
     projectPath: Library/CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/Library/CurrentMaximizeLayout.dwlt
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/CurrentMaximizeLayout.dwlt
+    projectPath: Library/CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -358,6 +652,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: PrismGame/Library/InspectorExpandedItems.asset
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: PrismGame/Library/ScriptAssemblies/Assembly-CSharp.dll
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/ScriptAssemblies/Assembly-CSharp.dll
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -376,15 +676,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: PrismGame/Library/StateCache/Hierarchy/4072ad-mainStage.json
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/StateCache/Hierarchy/4072ad-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/4072ad-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Library/StateCache/Hierarchy/46b7a0-mainStage.json
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/StateCache/Hierarchy/46b7a0-mainStage.json
     projectPath: Library/StateCache/Hierarchy/46b7a0-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: PrismGame/Library/StateCache/SceneView/d00af8-mainStage.json
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/StateCache/SceneView/d00af8-mainStage.json
+    projectPath: Library/StateCache/SceneView/d00af8-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Library/StateCache/SceneView/d69a67-mainStage.json
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Library/StateCache/SceneView/d69a67-mainStage.json
+    projectPath: Library/StateCache/SceneView/d69a67-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: PrismGame/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/Packages/packages-lock.json
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Packages/packages-lock.json
+    projectPath: Packages/packages-lock.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: PrismGame/ProjectSettings/TagManager.asset
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -398,41 +734,41 @@ MonoBehaviour:
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-0137b7325e3534f58899f062fe65735f
     projectPath: Temp/UnityTempFile-0137b7325e3534f58899f062fe65735f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PrismGame/Temp/UnityTempFile-0929754f7aff34d278176e9f8f27f09f
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-0929754f7aff34d278176e9f8f27f09f
-    projectPath: Temp/UnityTempFile-0929754f7aff34d278176e9f8f27f09f
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: PrismGame/Temp/UnityTempFile-11bdba1e3d78c4058bdec21167419883
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-11bdba1e3d78c4058bdec21167419883
     projectPath: Temp/UnityTempFile-11bdba1e3d78c4058bdec21167419883
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PrismGame/Temp/UnityTempFile-126ce107081274c9488b70e3fd3f0bc6
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-126ce107081274c9488b70e3fd3f0bc6
-    projectPath: Temp/UnityTempFile-126ce107081274c9488b70e3fd3f0bc6
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: PrismGame/Temp/UnityTempFile-157a3b2be883b4bb18b8da9db7f0b64d
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-157a3b2be883b4bb18b8da9db7f0b64d
+    projectPath: Temp/UnityTempFile-157a3b2be883b4bb18b8da9db7f0b64d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Temp/UnityTempFile-157c266a70c1540f59a91060dabfcfb6
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-157c266a70c1540f59a91060dabfcfb6
     projectPath: Temp/UnityTempFile-157c266a70c1540f59a91060dabfcfb6
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Temp/UnityTempFile-15cc67e9504f54b5eb5e96ae11142c77
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-15cc67e9504f54b5eb5e96ae11142c77
     projectPath: Temp/UnityTempFile-15cc67e9504f54b5eb5e96ae11142c77
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Temp/UnityTempFile-19c31eadaaffc4ea881a1c8afcdef098
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-19c31eadaaffc4ea881a1c8afcdef098
     projectPath: Temp/UnityTempFile-19c31eadaaffc4ea881a1c8afcdef098
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Temp/UnityTempFile-2341400321ba244d09d25141152570b6
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-2341400321ba244d09d25141152570b6
+    projectPath: Temp/UnityTempFile-2341400321ba244d09d25141152570b6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -440,185 +776,275 @@ MonoBehaviour:
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-243381f414ed2402dba912e89cd2429f
     projectPath: Temp/UnityTempFile-243381f414ed2402dba912e89cd2429f
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Temp/UnityTempFile-2b6857f9272394292ba8ad240636e368
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-2b6857f9272394292ba8ad240636e368
+    projectPath: Temp/UnityTempFile-2b6857f9272394292ba8ad240636e368
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Temp/UnityTempFile-36074df605bce423cb19d24992c3b792
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-36074df605bce423cb19d24992c3b792
-    projectPath: Temp/UnityTempFile-36074df605bce423cb19d24992c3b792
+  - path: PrismGame/Temp/UnityTempFile-32c0585b5e1bb419caf008d76c4bb57a
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-32c0585b5e1bb419caf008d76c4bb57a
+    projectPath: Temp/UnityTempFile-32c0585b5e1bb419caf008d76c4bb57a
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-36fc0c3844c814ff4a0b860e57a3f254
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-36fc0c3844c814ff4a0b860e57a3f254
-    projectPath: Temp/UnityTempFile-36fc0c3844c814ff4a0b860e57a3f254
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-3af8d7a75b7714b3592a5696174e950e
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-3af8d7a75b7714b3592a5696174e950e
+    projectPath: Temp/UnityTempFile-3af8d7a75b7714b3592a5696174e950e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-45bfb7a034f564dc3920e558070b17ed
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-45bfb7a034f564dc3920e558070b17ed
-    projectPath: Temp/UnityTempFile-45bfb7a034f564dc3920e558070b17ed
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-3e809b93f66e54047a2693d0f825110c
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-3e809b93f66e54047a2693d0f825110c
+    projectPath: Temp/UnityTempFile-3e809b93f66e54047a2693d0f825110c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-4fe77bc9c55bf404184d9849f179d2c3
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-4fe77bc9c55bf404184d9849f179d2c3
-    projectPath: Temp/UnityTempFile-4fe77bc9c55bf404184d9849f179d2c3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-41c27e9f80dd041a18e769e2857ca4a3
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-41c27e9f80dd041a18e769e2857ca4a3
+    projectPath: Temp/UnityTempFile-41c27e9f80dd041a18e769e2857ca4a3
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-56263f2fe532b41db8af9a0b054e4e05
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-56263f2fe532b41db8af9a0b054e4e05
-    projectPath: Temp/UnityTempFile-56263f2fe532b41db8af9a0b054e4e05
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-540ba4afbfdfe47dfb1eb00da340ed54
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-540ba4afbfdfe47dfb1eb00da340ed54
+    projectPath: Temp/UnityTempFile-540ba4afbfdfe47dfb1eb00da340ed54
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-5ae2d9e61fc3646ad9de49d1369d10c0
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-5ae2d9e61fc3646ad9de49d1369d10c0
-    projectPath: Temp/UnityTempFile-5ae2d9e61fc3646ad9de49d1369d10c0
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-58032e45b95604972b946bd07361426b
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-58032e45b95604972b946bd07361426b
+    projectPath: Temp/UnityTempFile-58032e45b95604972b946bd07361426b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-5b9eb97ce879444979b30f551d8b740b
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-5b9eb97ce879444979b30f551d8b740b
-    projectPath: Temp/UnityTempFile-5b9eb97ce879444979b30f551d8b740b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Temp/UnityTempFile-5bc7f3407a7794ac0ba6e73a1f8252e9
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-5bc7f3407a7794ac0ba6e73a1f8252e9
     projectPath: Temp/UnityTempFile-5bc7f3407a7794ac0ba6e73a1f8252e9
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Temp/UnityTempFile-601df078e70e44cfeb9b0c39c9cee5c7
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-601df078e70e44cfeb9b0c39c9cee5c7
+    projectPath: Temp/UnityTempFile-601df078e70e44cfeb9b0c39c9cee5c7
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Temp/UnityTempFile-6db8c8bfa70d748ab8c2f36c4f840b45
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-6db8c8bfa70d748ab8c2f36c4f840b45
-    projectPath: Temp/UnityTempFile-6db8c8bfa70d748ab8c2f36c4f840b45
+  - path: PrismGame/Temp/UnityTempFile-63680f9ada8c54eaebfab5f5cf757d06
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-63680f9ada8c54eaebfab5f5cf757d06
+    projectPath: Temp/UnityTempFile-63680f9ada8c54eaebfab5f5cf757d06
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-6ecb1c16ff0524232b648305266aa4ed
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-6ecb1c16ff0524232b648305266aa4ed
-    projectPath: Temp/UnityTempFile-6ecb1c16ff0524232b648305266aa4ed
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-6f204162e05844861b3507f241599b4e
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-6f204162e05844861b3507f241599b4e
+    projectPath: Temp/UnityTempFile-6f204162e05844861b3507f241599b4e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-7ffa1c668c70248dea5114ea2626b4c2
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-7ffa1c668c70248dea5114ea2626b4c2
-    projectPath: Temp/UnityTempFile-7ffa1c668c70248dea5114ea2626b4c2
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-81160ca42a9054b98a0ff96c6fd76743
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-81160ca42a9054b98a0ff96c6fd76743
+    projectPath: Temp/UnityTempFile-81160ca42a9054b98a0ff96c6fd76743
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-86628c657b6bc419f8332d4f3887facd
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-86628c657b6bc419f8332d4f3887facd
-    projectPath: Temp/UnityTempFile-86628c657b6bc419f8332d4f3887facd
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-862a322f47ce64e6187d14a1908d733d
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-862a322f47ce64e6187d14a1908d733d
+    projectPath: Temp/UnityTempFile-862a322f47ce64e6187d14a1908d733d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-8eaf57722eab24879aa0e98e8e4d2b77
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-8eaf57722eab24879aa0e98e8e4d2b77
-    projectPath: Temp/UnityTempFile-8eaf57722eab24879aa0e98e8e4d2b77
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-87910df8b08ec4abd8df9c25fc741db2
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-87910df8b08ec4abd8df9c25fc741db2
+    projectPath: Temp/UnityTempFile-87910df8b08ec4abd8df9c25fc741db2
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-9891902c9963a4e44ac70d8bc169269a
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-9891902c9963a4e44ac70d8bc169269a
-    projectPath: Temp/UnityTempFile-9891902c9963a4e44ac70d8bc169269a
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-8dbc9c6b7534246edb90a1d64860659c
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-8dbc9c6b7534246edb90a1d64860659c
+    projectPath: Temp/UnityTempFile-8dbc9c6b7534246edb90a1d64860659c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-99563d39dcb92463b8e573a89716cffc
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-99563d39dcb92463b8e573a89716cffc
-    projectPath: Temp/UnityTempFile-99563d39dcb92463b8e573a89716cffc
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-8e4552eff2e724eeba0095c9ef3db8fc
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-8e4552eff2e724eeba0095c9ef3db8fc
+    projectPath: Temp/UnityTempFile-8e4552eff2e724eeba0095c9ef3db8fc
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-a1c00d0d8fa3947ee9904aa1fd6df8ab
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-a1c00d0d8fa3947ee9904aa1fd6df8ab
-    projectPath: Temp/UnityTempFile-a1c00d0d8fa3947ee9904aa1fd6df8ab
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-8f3e53e5f88b64e6f8b85f732c07c983
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-8f3e53e5f88b64e6f8b85f732c07c983
+    projectPath: Temp/UnityTempFile-8f3e53e5f88b64e6f8b85f732c07c983
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-905117bfae30446e38501f9fa2314c13
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-905117bfae30446e38501f9fa2314c13
+    projectPath: Temp/UnityTempFile-905117bfae30446e38501f9fa2314c13
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-9dec0a23e012a40f6a3af613d31b26bd
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-9dec0a23e012a40f6a3af613d31b26bd
+    projectPath: Temp/UnityTempFile-9dec0a23e012a40f6a3af613d31b26bd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-a0229a00c63224ef2909b872b3216574
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-a0229a00c63224ef2909b872b3216574
+    projectPath: Temp/UnityTempFile-a0229a00c63224ef2909b872b3216574
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Temp/UnityTempFile-a29de9c4d7fd24bee8a7d3d215daf006
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-a29de9c4d7fd24bee8a7d3d215daf006
     projectPath: Temp/UnityTempFile-a29de9c4d7fd24bee8a7d3d215daf006
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PrismGame/Temp/UnityTempFile-c423caa0e6a954e069ffc8292a24c4d6
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-c423caa0e6a954e069ffc8292a24c4d6
-    projectPath: Temp/UnityTempFile-c423caa0e6a954e069ffc8292a24c4d6
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: PrismGame/Temp/UnityTempFile-a521ba6b85c6845e48130842cdaf404a
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-a521ba6b85c6845e48130842cdaf404a
+    projectPath: Temp/UnityTempFile-a521ba6b85c6845e48130842cdaf404a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-a531bb6834d2348f9874228b2072b1f5
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-a531bb6834d2348f9874228b2072b1f5
+    projectPath: Temp/UnityTempFile-a531bb6834d2348f9874228b2072b1f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-a9fe126aae38b4849a854a060c58d5f0
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-a9fe126aae38b4849a854a060c58d5f0
+    projectPath: Temp/UnityTempFile-a9fe126aae38b4849a854a060c58d5f0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-aaeb80487acdd4aaf9cefa6be365dfa8
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-aaeb80487acdd4aaf9cefa6be365dfa8
+    projectPath: Temp/UnityTempFile-aaeb80487acdd4aaf9cefa6be365dfa8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-b3837c8fbb6ae4bbd8bb0dbe0e613e0e
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-b3837c8fbb6ae4bbd8bb0dbe0e613e0e
+    projectPath: Temp/UnityTempFile-b3837c8fbb6ae4bbd8bb0dbe0e613e0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-b3b711f2379374cae85f1376570ea489
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-b3b711f2379374cae85f1376570ea489
+    projectPath: Temp/UnityTempFile-b3b711f2379374cae85f1376570ea489
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-b77280a93351f4d38a5832e61d5b8996
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-b77280a93351f4d38a5832e61d5b8996
+    projectPath: Temp/UnityTempFile-b77280a93351f4d38a5832e61d5b8996
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-b8fcc1fa8be5547b08aec3d7e0f71414
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-b8fcc1fa8be5547b08aec3d7e0f71414
+    projectPath: Temp/UnityTempFile-b8fcc1fa8be5547b08aec3d7e0f71414
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-bde042d2b7a87418fbe6b1a1f21d7ada
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-bde042d2b7a87418fbe6b1a1f21d7ada
+    projectPath: Temp/UnityTempFile-bde042d2b7a87418fbe6b1a1f21d7ada
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-be2c2ffddf279452eaa76c66655daf0e
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-be2c2ffddf279452eaa76c66655daf0e
+    projectPath: Temp/UnityTempFile-be2c2ffddf279452eaa76c66655daf0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-c85921978c8cd479b82b4bdb39a9875c
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-c85921978c8cd479b82b4bdb39a9875c
+    projectPath: Temp/UnityTempFile-c85921978c8cd479b82b4bdb39a9875c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Temp/UnityTempFile-cc21bec3d21ea469e96fd632e86317ee
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-cc21bec3d21ea469e96fd632e86317ee
     projectPath: Temp/UnityTempFile-cc21bec3d21ea469e96fd632e86317ee
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Temp/UnityTempFile-d533110c3c91f43c0ac3c84be60e543a
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-d533110c3c91f43c0ac3c84be60e543a
+    projectPath: Temp/UnityTempFile-d533110c3c91f43c0ac3c84be60e543a
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Temp/UnityTempFile-d10c1059e996a4514a78f1d0ba334170
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-d10c1059e996a4514a78f1d0ba334170
-    projectPath: Temp/UnityTempFile-d10c1059e996a4514a78f1d0ba334170
+  - path: PrismGame/Temp/UnityTempFile-d8ef76aed820949c0974b0f9e8675296
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-d8ef76aed820949c0974b0f9e8675296
+    projectPath: Temp/UnityTempFile-d8ef76aed820949c0974b0f9e8675296
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-d212df722bdb0417c80694197db13039
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-d212df722bdb0417c80694197db13039
-    projectPath: Temp/UnityTempFile-d212df722bdb0417c80694197db13039
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-e65d0ffb4961e4f9294ce0af57e97660
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-e65d0ffb4961e4f9294ce0af57e97660
+    projectPath: Temp/UnityTempFile-e65d0ffb4961e4f9294ce0af57e97660
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-d2e82e57e255c49648ae1aad4bcef64e
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-d2e82e57e255c49648ae1aad4bcef64e
-    projectPath: Temp/UnityTempFile-d2e82e57e255c49648ae1aad4bcef64e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-e8174b6a5f17e40bab5a54653c712640
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-e8174b6a5f17e40bab5a54653c712640
+    projectPath: Temp/UnityTempFile-e8174b6a5f17e40bab5a54653c712640
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-e0e973a8e4999483faf5af21b7dfd3fc
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-e0e973a8e4999483faf5af21b7dfd3fc
-    projectPath: Temp/UnityTempFile-e0e973a8e4999483faf5af21b7dfd3fc
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-eb6ff7c1949b74adabf477bbe3e1eb72
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-eb6ff7c1949b74adabf477bbe3e1eb72
+    projectPath: Temp/UnityTempFile-eb6ff7c1949b74adabf477bbe3e1eb72
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-e184d499ff53d4e5194b145132f71711
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-e184d499ff53d4e5194b145132f71711
-    projectPath: Temp/UnityTempFile-e184d499ff53d4e5194b145132f71711
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-ed3de53659b6240259b943506a4788dd
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-ed3de53659b6240259b943506a4788dd
+    projectPath: Temp/UnityTempFile-ed3de53659b6240259b943506a4788dd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-ea4bf8d46e52a4dbfbff8f4921a56987
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-ea4bf8d46e52a4dbfbff8f4921a56987
-    projectPath: Temp/UnityTempFile-ea4bf8d46e52a4dbfbff8f4921a56987
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: PrismGame/Temp/UnityTempFile-f11024cb05a7d403ca2fdc46c1f7c428
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f11024cb05a7d403ca2fdc46c1f7c428
     projectPath: Temp/UnityTempFile-f11024cb05a7d403ca2fdc46c1f7c428
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Temp/UnityTempFile-f1a885f4cfd7c41b5a73c02d9cd24a04
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f1a885f4cfd7c41b5a73c02d9cd24a04
     projectPath: Temp/UnityTempFile-f1a885f4cfd7c41b5a73c02d9cd24a04
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Temp/UnityTempFile-f2d6f640edbf64303af1939d3b9af8d8
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f2d6f640edbf64303af1939d3b9af8d8
+    projectPath: Temp/UnityTempFile-f2d6f640edbf64303af1939d3b9af8d8
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PrismGame/Temp/UnityTempFile-f3be81a44ec544ff49728e6364ba6252
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f3be81a44ec544ff49728e6364ba6252
-    projectPath: Temp/UnityTempFile-f3be81a44ec544ff49728e6364ba6252
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: PrismGame/Temp/UnityTempFile-f3c8ad74b4e684e188f48a35085ad859
-    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f3c8ad74b4e684e188f48a35085ad859
-    projectPath: Temp/UnityTempFile-f3c8ad74b4e684e188f48a35085ad859
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: PrismGame/Temp/UnityTempFile-f502f59e5df164d6c9f4ce61ca4ab5ab
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f502f59e5df164d6c9f4ce61ca4ab5ab
     projectPath: Temp/UnityTempFile-f502f59e5df164d6c9f4ce61ca4ab5ab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: PrismGame/Temp/UnityTempFile-f5369743b3f2e4307bd0faa385bfed1a
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f5369743b3f2e4307bd0faa385bfed1a
+    projectPath: Temp/UnityTempFile-f5369743b3f2e4307bd0faa385bfed1a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: PrismGame/Temp/UnityTempFile-f5957184614f247ad803003342d34051
+    fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f5957184614f247ad803003342d34051
+    projectPath: Temp/UnityTempFile-f5957184614f247ad803003342d34051
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -626,17 +1052,17 @@ MonoBehaviour:
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-f5d708097184848cd8881e6321bdc1c3
     projectPath: Temp/UnityTempFile-f5d708097184848cd8881e6321bdc1c3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Temp/UnityTempFile-fb48596d1cb384883af7118332fdc23a
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-fb48596d1cb384883af7118332fdc23a
     projectPath: Temp/UnityTempFile-fb48596d1cb384883af7118332fdc23a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: PrismGame/Temp/UnityTempFile-fe316da7cfb4c45fe824f251236816cb
     fullPath: /Users/Michi/Documents/Unity/MMP/PrismGame/PrismGame/Temp/UnityTempFile-fe316da7cfb4c45fe824f251236816cb
     projectPath: Temp/UnityTempFile-fe316da7cfb4c45fe824f251236816cb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
