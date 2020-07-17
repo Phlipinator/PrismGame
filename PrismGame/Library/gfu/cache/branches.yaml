@@ -13,25 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-07-16T16:28:39.349+02:00
-  initializedAtString: 2020-07-16T16:28:22.119+02:00
+  lastUpdatedAtString: 2020-07-17T14:24:11.771+02:00
+  initializedAtString: 2020-07-17T14:24:11.757+02:00
   localBranches:
-  - name: PrismInteraction
-    tracking: origin/PrismInteraction
-  - name: PrismReflection
-    tracking: origin/PrismReflection
+  - name: HudInteraction
+    tracking: 
   - name: master
     tracking: origin/master
   remoteBranches:
-  - name: origin/FailBranch
-    tracking: '[None]'
   - name: origin/HEAD
-    tracking: '[None]'
-  - name: origin/PrismInteraction
-    tracking: '[None]'
-  - name: origin/PrismReflection
-    tracking: '[None]'
-  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -43,20 +33,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - PrismInteraction
-    - PrismReflection
+    - HudInteraction
     - master
     values:
-    - name: PrismInteraction
+    - name: HudInteraction
       remote:
-        name: origin
-        url: git@github.com:Phlipinator/PrismGame.git
-      trackingBranch: PrismInteraction
-    - name: PrismReflection
-      remote:
-        name: origin
-        url: git@github.com:Phlipinator/PrismGame.git
-      trackingBranch: PrismReflection
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
@@ -67,34 +51,10 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
-      - FailBranch
       - HEAD
-      - PrismInteraction
-      - PrismReflection
-      - master
     subKeyValues:
     - Values:
-      - name: FailBranch
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
       - name: HEAD
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
-      - name: PrismInteraction
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
-      - name: PrismReflection
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
-      - name: master
         remote:
           name: origin
           url: git@github.com:Phlipinator/PrismGame.git

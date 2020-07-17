@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Laser : MonoBehaviour
 {
@@ -48,7 +49,7 @@ public class Laser : MonoBehaviour
             if (hit2D.transform.gameObject.tag == "Goal")
             {
                 Debug.Log("Goal hit");
-                //TODO: Insert Goal interaction
+                SceneManager.LoadScene(sceneName: "EndScene");
             }
 
             if (hit2D.transform.gameObject.tag == "Obstacle")
@@ -71,7 +72,7 @@ public class Laser : MonoBehaviour
 
             if (hit2D.transform.gameObject.tag == "Prism") //mirror hit. set new pos where hit. reflect angle and make that new direction
             {
-                Debug.Log("Mirror Hit");
+                // Debug.Log("Mirror Hit");
                 direction = Vector2.Reflect(direction, hit2D.normal);
                 position = hit2D.point + direction * 0.01f;
 
@@ -81,36 +82,7 @@ public class Laser : MonoBehaviour
                 }
 
             }
-            /*if (hit2D.transform.gameObject.tag == "Splitter") //reflect and go ahead
-            {
-
-                Debug.Log("Splitter hit");
-                if (splitsRemaining > 0)//go ahead
-                {
-                    Debug.Log("Splitting");
-                    Vector2 splitPosition = new Vector2();
-                    Vector2 findOppBegin = hit2D.point + direction * 1f;
-                    RaycastHit2D[] findOppHit = Physics2D.RaycastAll(findOppBegin, -direction);
-                    for (int i = 0; i <= findOppHit.Length; i++) //findOppHit[i].transform.gameObject != hit2D.transform.gameObject
-                    {
-                        if (findOppHit[i].transform.gameObject == hit2D.transform.gameObject)
-                        {
-                            splitPosition = findOppHit[i].point + direction * 0.01f;
-                            break;
-                        }
-                    }
-
-                    DrawPredictedReflection(splitPosition, direction, reflectionsRemaining, --splitsRemaining);
-                }
-
-
-                direction = Vector2.Reflect(direction, hit2D.normal);
-                position = hit2D.point + direction * 0.01f;
-                if (reflectionsRemaining > 0)//reflect too
-                {
-                    DrawPredictedReflection(position, direction, --reflectionsRemaining, splitsRemaining);
-                }
-            }*/
+            
         }
     }
 }
