@@ -13,10 +13,22 @@ public class ObstacleScript : MonoBehaviour
 
     private TimerScript timerScript;
 
+    public GameObject Pos1;
+    public GameObject Pos2;
+
+    private Vector3 posVector1;
+    private Vector3 posVector2;
+
     // Start is called before the first frame update
     void Start()
     {
         timerScript = txt.GetComponent<TimerScript>();
+
+        posVector1 = Pos1.transform.position;
+        posVector2 = Pos2.transform.position;
+
+        Debug.Log("PosVector1: " + posVector1);
+       
     }
 
     // Update is called once per frame
@@ -35,6 +47,47 @@ public class ObstacleScript : MonoBehaviour
             timerScript.targetTime -= punishment;
 
         }
-        
+
+ 
+    
+      
+        if (transform.position != posVector1)
+        {
+            //transform.position = new Vector3(transform.position.x + 0.001f, transform.position.y + 0.001f, transform.position.z);
+
+           /* 
+            Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+            Vector3 toBeNormalized = posVector1 - position;
+
+            Debug.Log("vector: " + toBeNormalized);
+
+            Vector3 normalized = Vector3.Normalize(toBeNormalized);
+
+            Debug.Log("Normalized: " + normalized);
+
+            transform.position = normalized * 0.001f;
+           */
+
+           transform.position = new Vector3(transform.position.x + (posVector1.x - transform.position.x) * 0.001f,
+             transform.position.y + (posVector1.y - transform.position.y) * 0.001f, transform.position.z);
+            
+
+
+
+
+        }
+        else
+        {
+           transform.position = new Vector3(transform.position.x + (posVector1.x - transform.position.x) * 0.001f,
+                transform.position.y + (posVector1.y - transform.position.y) * 0.001f, transform.position.z);
+        }
+    
+    
+     
+
+
+
     }
+
+
 }
