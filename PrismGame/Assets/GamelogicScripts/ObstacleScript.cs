@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class ObstacleScript : MonoBehaviour
 {
     
-    public int timer = 100;
+    public float timer = 5.0f;
     public Text txt;
 
     public float punishment = 5.0f;
@@ -30,8 +30,10 @@ public class ObstacleScript : MonoBehaviour
 
     private bool Collision;
 
-    private int directionX = 10;
-    private int directionY = 10;
+    private int directionX;
+    private int directionY;
+
+    private System.Random random;
 
     // Start is called before the first frame update
     void Start()
@@ -55,7 +57,11 @@ public class ObstacleScript : MonoBehaviour
 
         moveTowards = posVector1;
 
-        
+        random = new System.Random();
+        directionX = (random.Next(0, 20) - 10) * 10; //int zwischen -10 und +10
+        directionY = (random.Next(0, 20) - 10) * 10;
+
+
     }
 
     // Update is called once per frame
@@ -67,7 +73,7 @@ public class ObstacleScript : MonoBehaviour
             //Farbe ändern o.ä. Aktion
         }
 
-        if(timer == 0)
+        if(timer <= 0.0f)
         {
             Destroy(this.gameObject);
 
@@ -75,7 +81,8 @@ public class ObstacleScript : MonoBehaviour
 
         }
 
-
+        Vector3 rotation = new Vector3(0, 0, 0.5f);
+        transform.Rotate(rotation);
 
 
 
@@ -127,14 +134,15 @@ public class ObstacleScript : MonoBehaviour
                 {
                     //Debug.Log("hit something: " + raycastHit2D.collider);
                     Debug.Log("randomize");
-                    System.Random random = new System.Random();
                     directionX = (random.Next(0, 20) - 10)*10; //int zwischen -10 und +10
                     directionY = (random.Next(0, 20) - 10)*10;
-                    Collision = false;
+                    //Collision = false;
                 }
                 Vector3 direction = new Vector3(directionX, directionY, 0);
                 Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                 Vector3 toBeNormalized = direction - position;
+
+                Debug.Log("toBeNormalized befor normalizing: " + toBeNormalized);
                 toBeNormalized.Normalize();
 
                 Debug.Log("toBeNormalized: " + toBeNormalized);
@@ -153,6 +161,12 @@ public class ObstacleScript : MonoBehaviour
     {
         Collision = true;
         Debug.Log("Collision Enter 2D " + collision.collider);
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        Collision = false;
+        Debug.Log("Collision Exit 2D " + collision.collider);
     }
 
 

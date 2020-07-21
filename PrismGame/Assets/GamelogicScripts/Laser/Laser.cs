@@ -58,7 +58,9 @@ public class Laser : MonoBehaviour
                 GameObject obstacle = hit2D.collider.gameObject;
                 ObstacleScript obstacleScript = obstacle.GetComponent<ObstacleScript>();
 
-                obstacleScript.timer -= 1;
+                float time = Time.deltaTime;
+
+                obstacleScript.timer -= time;
 
             }
 

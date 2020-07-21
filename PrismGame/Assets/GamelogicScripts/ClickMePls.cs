@@ -7,25 +7,30 @@ public class ClickMePls : MonoBehaviour
 
     bool clicked = false;
 
+    public Sprite greenSprite;
+    public Sprite redSprite;
+
     void OnMouseDown()
     {
-            if (!clicked)
-            {
-                this.GetComponent<Renderer>().material.color = Color.green;
-                clicked = true;
+        if (!clicked)
+        {
+            //this.GetComponent<Renderer>().material.color = Color.green;
+            this.GetComponent<SpriteRenderer>().sprite = greenSprite;
+            clicked = true;
 
-                //The rotation part does not work jet
-                /*if (Input.GetKey(KeyCode.A))
-                {
-                    transform.Rotate(Vector3.right * 30 * Time.deltaTime);
-                }*/
-            }
-
-            else
+            //The rotation part does not work jet
+            /*if (Input.GetKey(KeyCode.A))
             {
-                this.GetComponent<Renderer>().material.color = Color.red;
-                clicked = false;
-            }
+                transform.Rotate(Vector3.right * 30 * Time.deltaTime);
+            }*/
+        }
+
+        else
+        {
+            //this.GetComponent<Renderer>().material.color = Color.red;
+            this.GetComponent<SpriteRenderer>().sprite = redSprite;
+            clicked = false;
+        }
        
     }
 
