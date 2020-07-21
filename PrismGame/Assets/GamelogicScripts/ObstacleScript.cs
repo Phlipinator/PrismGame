@@ -1,34 +1,61 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ObstacleScript : MonoBehaviour
 {
-    private int initialTimer = 100;
+    
     public int timer = 100;
     public Text txt;
 
     public float punishment = 5.0f;
 
-    private TimerScript timerScript;
 
+    public bool isMoving;
+    public bool isMovongRandomly;
     public GameObject Pos1;
     public GameObject Pos2;
+    public float speed = 0.03f;
+
+
+    private TimerScript timerScript;
+    private int initialTimer = 100;
 
     private Vector3 posVector1;
     private Vector3 posVector2;
+    private Vector3 moveTowards;
+
+    private bool Collision;
+
+    private int directionX = 10;
+    private int directionY = 10;
 
     // Start is called before the first frame update
     void Start()
     {
         timerScript = txt.GetComponent<TimerScript>();
 
+        if (!isMoving || isMovongRandomly)
+        {
+            if (Pos1 == null)
+            {
+                Pos1 = this.gameObject;
+            }
+            if (Pos2 == null)
+            {
+                Pos2 = this.gameObject;
+            }
+        }
+
         posVector1 = Pos1.transform.position;
         posVector2 = Pos2.transform.position;
 
-        Debug.Log("PosVector1: " + posVector1);
-       
+        moveTowards = posVector1;
+
+        
     }
 
     // Update is called once per frame
@@ -48,45 +75,84 @@ public class ObstacleScript : MonoBehaviour
 
         }
 
- 
-    
-      
-        if (transform.position != posVector1)
+
+
+
+
+        if (isMoving)
         {
-            //transform.position = new Vector3(transform.position.x + 0.001f, transform.position.y + 0.001f, transform.position.z);
+            if (!isMovongRandomly)
+            {
+                if (moveTowards == posVector1)
+                {
+                    Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                    Vector3 toBeNormalized = posVector1 - position;
 
-           /* 
-            Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-            Vector3 toBeNormalized = posVector1 - position;
+                    toBeNormalized.Normalize();
 
-            Debug.Log("vector: " + toBeNormalized);
+                    Vector3 transformationVector = toBeNormalized * speed;
 
-            Vector3 normalized = Vector3.Normalize(toBeNormalized);
+                    transform.position = transform.position + transformationVector;
 
-            Debug.Log("Normalized: " + normalized);
+                    if (Math.Round(transform.position.x, 1) == Math.Round(posVector1.x, 1))
+                    {
+                        moveTowards = posVector2;
+                    }
 
-            transform.position = normalized * 0.001f;
-           */
+                }
+                else if (moveTowards == posVector2)
+                {
+                    Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                    Vector3 toBeNormalized = posVector2 - position;
 
-           transform.position = new Vector3(transform.position.x + (posVector1.x - transform.position.x) * 0.001f,
-             transform.position.y + (posVector1.y - transform.position.y) * 0.001f, transform.position.z);
-            
+                    toBeNormalized.Normalize();
 
+                    Vector3 transformationVector = toBeNormalized * speed;
 
+                    transform.position = transform.position + transformationVector;
 
+                    if (Math.Round(transform.position.x, 1) == Math.Round(posVector2.x, 1))
+                    {
+                        moveTowards = posVector1;
+                    }
+                }
+            }
+            else
+            {
+                Debug.Log("random movement");
 
+                RaycastHit2D raycastHit2D = Physics2D.Raycast(transform.position, Vector2.zero);
+
+                if (Collision)
+                {
+                    //Debug.Log("hit something: " + raycastHit2D.collider);
+                    Debug.Log("randomize");
+                    System.Random random = new System.Random();
+                    directionX = (random.Next(0, 20) - 10)*10; //int zwischen -10 und +10
+                    directionY = (random.Next(0, 20) - 10)*10;
+                    Collision = false;
+                }
+                Vector3 direction = new Vector3(directionX, directionY, 0);
+                Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                Vector3 toBeNormalized = direction - position;
+                toBeNormalized.Normalize();
+
+                Debug.Log("toBeNormalized: " + toBeNormalized);
+
+                Vector3 transformationVector = toBeNormalized * speed;
+
+                Debug.Log("transformaitonVector: " + transformationVector);
+
+                transform.position = transform.position + transformationVector;
+
+            }
         }
-        else
-        {
-           transform.position = new Vector3(transform.position.x + (posVector1.x - transform.position.x) * 0.001f,
-                transform.position.y + (posVector1.y - transform.position.y) * 0.001f, transform.position.z);
-        }
-    
-    
-     
+    }
 
-
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Collision = true;
+        Debug.Log("Collision Enter 2D " + collision.collider);
     }
 
 
