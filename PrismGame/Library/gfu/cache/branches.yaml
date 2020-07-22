@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-07-16T16:28:39.349+02:00
-  initializedAtString: 2020-07-16T16:28:22.119+02:00
+  lastUpdatedAtString: 2020-07-21T19:55:21.048+02:00
+  initializedAtString: 2020-07-21T15:33:46.251+02:00
   localBranches:
+  - name: HudInteraction
+    tracking: origin/HudInteraction
+  - name: ObstacleMovement
+    tracking: origin/ObstacleMovement
   - name: PrismInteraction
     tracking: origin/PrismInteraction
   - name: PrismReflection
@@ -26,6 +30,10 @@ MonoBehaviour:
   - name: origin/FailBranch
     tracking: '[None]'
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/HudInteraction
+    tracking: '[None]'
+  - name: origin/ObstacleMovement
     tracking: '[None]'
   - name: origin/PrismInteraction
     tracking: '[None]'
@@ -43,10 +51,22 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - HudInteraction
+    - ObstacleMovement
     - PrismInteraction
     - PrismReflection
     - master
     values:
+    - name: HudInteraction
+      remote:
+        name: origin
+        url: git@github.com:Phlipinator/PrismGame.git
+      trackingBranch: HudInteraction
+    - name: ObstacleMovement
+      remote:
+        name: origin
+        url: git@github.com:Phlipinator/PrismGame.git
+      trackingBranch: ObstacleMovement
     - name: PrismInteraction
       remote:
         name: origin
@@ -69,6 +89,8 @@ MonoBehaviour:
     - Values:
       - FailBranch
       - HEAD
+      - HudInteraction
+      - ObstacleMovement
       - PrismInteraction
       - PrismReflection
       - master
@@ -80,6 +102,16 @@ MonoBehaviour:
           url: git@github.com:Phlipinator/PrismGame.git
         trackingBranch: 
       - name: HEAD
+        remote:
+          name: origin
+          url: git@github.com:Phlipinator/PrismGame.git
+        trackingBranch: 
+      - name: HudInteraction
+        remote:
+          name: origin
+          url: git@github.com:Phlipinator/PrismGame.git
+        trackingBranch: 
+      - name: ObstacleMovement
         remote:
           name: origin
           url: git@github.com:Phlipinator/PrismGame.git

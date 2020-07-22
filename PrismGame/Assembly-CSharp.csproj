@@ -63,13 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GamelogicScripts\ClickMe.cs" />
     <Compile Include="Assets\GamelogicScripts\ClickMePls.cs" />
-    <Compile Include="Assets\GamelogicScripts\MouseSelector.cs" />
-    <Compile Include="Assets\Laser\Laser.cs" />
+    <Compile Include="Assets\GamelogicScripts\DataScript.cs" />
+    <Compile Include="Assets\GamelogicScripts\Laser\Laser.cs" />
+    <Compile Include="Assets\GamelogicScripts\ObstacleScript.cs" />
+    <Compile Include="Assets\GamelogicScripts\SceneSwitcher.cs" />
+    <Compile Include="Assets\GamelogicScripts\TimeParser.cs" />
+    <Compile Include="Assets\GamelogicScripts\TimerScript.cs" />
     <Compile Include="Assets\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\MainMenu\PlayMenuScript.cs" />
-    <Compile Include="Assets\ObstacleScript.cs" />
+    <Compile Include="Assets\ObstacleMovement.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
