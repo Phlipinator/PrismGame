@@ -9,7 +9,7 @@ public class ObstacleScript : MonoBehaviour
 {
     
     public float timer = 5.0f;
-    public Text txt;
+    public GameObject txt;
 
     public float punishment = 5.0f;
 

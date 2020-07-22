@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-07-22T13:15:00.386+02:00
-  initializedAtString: 2020-07-22T13:15:00.386+02:00
+  lastUpdatedAtString: 2020-07-22T17:35:44.057+02:00
+  initializedAtString: 2020-07-22T17:35:44.057+02:00
   currentGitRemote:
     name: origin
     url: git@github.com:Phlipinator/PrismGame.git

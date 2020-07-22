@@ -12,7 +12,7 @@ public class Laser : MonoBehaviour
 
     private LineRenderer lineRenderer;
 
-    public GameObject timerText;
+    public GameObject timerObject;
     private TimerScript timerScript;
 
 
@@ -22,7 +22,7 @@ public class Laser : MonoBehaviour
     {
 
         lineRenderer = GetComponent<LineRenderer>();
-        timerScript = timerText.GetComponent<TimerScript>();
+        timerScript = timerObject.GetComponent<TimerScript>();
     }
 
     private void Update()
