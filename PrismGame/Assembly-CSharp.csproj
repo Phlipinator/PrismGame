@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\GamelogicScripts\ClickMePls.cs" />
     <Compile Include="Assets\GamelogicScripts\DataScript.cs" />
+    <Compile Include="Assets\GamelogicScripts\EndScreenMessage.cs" />
     <Compile Include="Assets\GamelogicScripts\Laser\Laser.cs" />
     <Compile Include="Assets\GamelogicScripts\ObstacleScript.cs" />
     <Compile Include="Assets\GamelogicScripts\SceneSwitcher.cs" />

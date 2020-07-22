@@ -10,6 +10,7 @@ public class TimerScript : MonoBehaviour
     public float targetTime = 20.0f;
     public Text txt;
 
+
     void Update()
     {
 

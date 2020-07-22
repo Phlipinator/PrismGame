@@ -20,6 +20,9 @@ public class ObstacleScript : MonoBehaviour
     public GameObject Pos2;
     public float speed = 0.03f;
 
+    public ParticleSystem ExplosionParticleSystem;
+    public AudioSource destroySound;
+
 
     private TimerScript timerScript;
     private int initialTimer = 100;
@@ -75,8 +78,9 @@ public class ObstacleScript : MonoBehaviour
 
         if(timer <= 0.0f)
         {
-            Destroy(this.gameObject);
 
+            //Destroy(this.gameObject);
+            DestroyObstacle();
             timerScript.targetTime -= punishment;
 
         }
@@ -154,6 +158,21 @@ public class ObstacleScript : MonoBehaviour
                 transform.position = transform.position + transformationVector;
 
             }
+        }
+    }
+
+    private void DestroyObstacle()
+    {
+        if (this.gameObject != null)
+        {
+
+            destroySound.Play();
+            ExplosionParticleSystem.transform.position = transform.position;
+            short pieces = (short)Mathf.Max(8, (50.0f * transform.localScale.x * transform.localScale.x));
+            ExplosionParticleSystem.emission.SetBursts(new ParticleSystem.Burst[] { new ParticleSystem.Burst(0.0f, pieces) }, 1);
+            ExplosionParticleSystem.Play();
+
+            GameObject.Destroy(this.gameObject);
         }
     }
 

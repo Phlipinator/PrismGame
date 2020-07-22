@@ -9,10 +9,13 @@ public class Laser : MonoBehaviour
     public int maxSplitCount = 5;
     public float maxStepDistance = 100;
 
+
     private LineRenderer lineRenderer;
 
     public GameObject timerText;
     private TimerScript timerScript;
+
+
 
 
     void Start()
