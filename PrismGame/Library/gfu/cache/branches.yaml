@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-07-21T19:55:21.048+02:00
-  initializedAtString: 2020-07-21T15:33:46.251+02:00
+  lastUpdatedAtString: 2020-07-22T15:42:08.495+02:00
+  initializedAtString: 2020-07-22T15:42:08.473+02:00
   localBranches:
   - name: HudInteraction
     tracking: origin/HudInteraction
