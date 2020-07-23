@@ -85,7 +85,7 @@ public class ObstacleScript : MonoBehaviour
 
         }
 
-        Vector3 rotation = new Vector3(0, 0, 0.5f);
+        Vector3 rotation = new Vector3(0, 0, 20f * Time.deltaTime);
         transform.Rotate(rotation);
 
 
@@ -101,7 +101,7 @@ public class ObstacleScript : MonoBehaviour
 
                     toBeNormalized.Normalize();
 
-                    Vector3 transformationVector = toBeNormalized * speed;
+                    Vector3 transformationVector = toBeNormalized * speed * Time.deltaTime;
 
                     transform.position = transform.position + transformationVector;
 
@@ -118,7 +118,7 @@ public class ObstacleScript : MonoBehaviour
 
                     toBeNormalized.Normalize();
 
-                    Vector3 transformationVector = toBeNormalized * speed;
+                    Vector3 transformationVector = toBeNormalized * speed * Time.deltaTime;
 
                     transform.position = transform.position + transformationVector;
 
@@ -151,7 +151,7 @@ public class ObstacleScript : MonoBehaviour
 
                 Debug.Log("toBeNormalized: " + toBeNormalized);
 
-                Vector3 transformationVector = toBeNormalized * speed;
+                Vector3 transformationVector = toBeNormalized * speed * Time.deltaTime;
 
                 Debug.Log("transformaitonVector: " + transformationVector);
 
