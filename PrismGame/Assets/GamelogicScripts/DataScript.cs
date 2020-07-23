@@ -5,6 +5,7 @@ using UnityEngine;
 public static class DataScript
 {
     private static int timeLeft;
+    private static int gamemode;  
 
     public static int TimeLeft
     {
@@ -16,6 +17,19 @@ public static class DataScript
         set
         {
             timeLeft = value;
+        }
+    }
+
+    public static int Gamemode
+    {
+        get
+        {
+            return gamemode;
+        }
+
+        set
+        {
+            gamemode = value;
         }
     }
 }

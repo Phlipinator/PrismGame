@@ -13,31 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-07-22T15:42:08.495+02:00
-  initializedAtString: 2020-07-22T15:42:08.473+02:00
+  lastUpdatedAtString: 2020-07-22T19:32:49.487+02:00
+  initializedAtString: 2020-07-22T19:32:20.512+02:00
   localBranches:
-  - name: HudInteraction
-    tracking: origin/HudInteraction
-  - name: ObstacleMovement
-    tracking: origin/ObstacleMovement
-  - name: PrismInteraction
-    tracking: origin/PrismInteraction
-  - name: PrismReflection
-    tracking: origin/PrismReflection
   - name: master
     tracking: origin/master
   remoteBranches:
-  - name: origin/FailBranch
-    tracking: '[None]'
   - name: origin/HEAD
-    tracking: '[None]'
-  - name: origin/HudInteraction
-    tracking: '[None]'
-  - name: origin/ObstacleMovement
-    tracking: '[None]'
-  - name: origin/PrismInteraction
-    tracking: '[None]'
-  - name: origin/PrismReflection
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
@@ -51,32 +33,8 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - HudInteraction
-    - ObstacleMovement
-    - PrismInteraction
-    - PrismReflection
     - master
     values:
-    - name: HudInteraction
-      remote:
-        name: origin
-        url: git@github.com:Phlipinator/PrismGame.git
-      trackingBranch: HudInteraction
-    - name: ObstacleMovement
-      remote:
-        name: origin
-        url: git@github.com:Phlipinator/PrismGame.git
-      trackingBranch: ObstacleMovement
-    - name: PrismInteraction
-      remote:
-        name: origin
-        url: git@github.com:Phlipinator/PrismGame.git
-      trackingBranch: PrismInteraction
-    - name: PrismReflection
-      remote:
-        name: origin
-        url: git@github.com:Phlipinator/PrismGame.git
-      trackingBranch: PrismReflection
     - name: master
       remote:
         name: origin
@@ -87,41 +45,11 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
-      - FailBranch
       - HEAD
-      - HudInteraction
-      - ObstacleMovement
-      - PrismInteraction
-      - PrismReflection
       - master
     subKeyValues:
     - Values:
-      - name: FailBranch
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
       - name: HEAD
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
-      - name: HudInteraction
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
-      - name: ObstacleMovement
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
-      - name: PrismInteraction
-        remote:
-          name: origin
-          url: git@github.com:Phlipinator/PrismGame.git
-        trackingBranch: 
-      - name: PrismReflection
         remote:
           name: origin
           url: git@github.com:Phlipinator/PrismGame.git

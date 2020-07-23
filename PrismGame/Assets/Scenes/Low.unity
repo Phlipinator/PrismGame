@@ -144,6 +144,11 @@ PrefabInstance:
       propertyPath: destroySound
       value: 
       objectReference: {fileID: 1732220469}
+    - target: {fileID: 3160191929129476720, guid: e49fb7fa26f7b45b298eb0cbb19aa19e,
+        type: 3}
+      propertyPath: txt
+      value: 
+      objectReference: {fileID: 2013809078}
     - target: {fileID: 3160191929129476721, guid: e49fb7fa26f7b45b298eb0cbb19aa19e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -672,6 +677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8577647117762447129, guid: 4730b0bdbbb8d481b8237fdb1ffd1aae,
+        type: 3}
+      propertyPath: ShapeModule.m_Texture
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4730b0bdbbb8d481b8237fdb1ffd1aae, type: 3}
@@ -1699,6 +1709,11 @@ PrefabInstance:
       propertyPath: ExplosionParticleSystem
       value: 
       objectReference: {fileID: 32747540}
+    - target: {fileID: 3160191929129476720, guid: e49fb7fa26f7b45b298eb0cbb19aa19e,
+        type: 3}
+      propertyPath: txt
+      value: 
+      objectReference: {fileID: 2013809078}
     - target: {fileID: 3160191929129476721, guid: e49fb7fa26f7b45b298eb0cbb19aa19e,
         type: 3}
       propertyPath: m_LocalPosition.x

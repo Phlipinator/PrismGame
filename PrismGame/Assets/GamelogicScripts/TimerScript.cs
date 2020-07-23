@@ -37,9 +37,10 @@ public class TimerScript : MonoBehaviour
             Debug.Log("Timer has Ended!");
             DataScript.TimeLeft = 0;
 
-            SceneManager.LoadScene(sceneName: "EndScene");
-
            
+            SceneManager.LoadScene(sceneName: "EndScene");
+            
+
         }
 
 
