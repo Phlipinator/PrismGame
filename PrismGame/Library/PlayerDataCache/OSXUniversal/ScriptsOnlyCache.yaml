@@ -1031,4 +1031,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Medium.unity
   - Assets/Scenes/High.unity
   - Assets/Scenes/Tutorial.unity
-  playerPath: /Users/phips/Desktop/PrismIsADancer_V1.app
+  playerPath: /Users/phips/Desktop/PrismIsADancer.app

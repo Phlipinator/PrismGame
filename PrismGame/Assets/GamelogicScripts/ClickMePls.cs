@@ -36,7 +36,7 @@ public class ClickMePls : MonoBehaviour
         if (clicked)
         {
             float direction = Input.GetAxis("Horizontal");
-            Vector3 rotation = new Vector3(0, 0, -direction * Time.deltaTime * 20f);
+            Vector3 rotation = new Vector3(0, 0, -direction * Time.deltaTime * 35f);
             transform.Rotate(rotation);
         }
     }
